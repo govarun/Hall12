@@ -18,75 +18,98 @@ body{
 }
 #p0{
   visibility: visible;
-  background-image: url("ha.jpg");
+  background-image: url("images/hall/9.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 100%;
   height: 100%;
   position: absolute;
+  box-shadow: 30px 0px 80px rgb(0,0,0);
+
 }
 #p1{
   visibility: hidden;
-  background-image: url("ha.jpg");
+  background-image: url("images/hall/2.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 100%;
   height: 100%;
   position: absolute;
+  box-shadow: 30px 0px 80px rgb(0,0,0);
+
 
 }
 #p2{
   visibility: hidden;
-  background-color: rgb(255,0,0);
+  background-image: url("images/hall/8.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   width: 100%;
   height: 100%;
   position: absolute;
+  flex-direction: column;
   display: flex;
   flex-wrap: wrap;
+  text-align: center;
+  box-shadow: 20px 0px 80px #888888;
+
 }
 #p3{
   visibility: hidden;
-  background-color: rgb(255,255,0);
-  width: 100%;
+  background-image: url("images/hall/3.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;  width: 100%;
   height: 100%;
   position: absolute;
+  box-shadow: 10px 10px 40px rgb(0,0,0);
+
 }
 #p4{
   visibility: hidden;
-  background-color: rgb(255,0,0);
-  width: 100%;
+  background-image: url("images/hall/4.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;  width: 100%;
   height: 100%;
   position: absolute;
+  box-shadow: 10px 10px 40px rgb(0,0,0);
+
 }
 #p5{
   visibility: hidden;
-  background-color: rgb(255,255,0);
-  width: 100%;
+  background-image: url("images/hall/5.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+    width: 100%;
   height: 100%;
   position: absolute;
-    box-shadow: 10px 10px 0px #888888;
+  box-shadow: 10px 10px 40px rgb(0,0,0);
 }
 #p6{
   visibility: hidden;
-  background-color: rgb(255,0,0);
+  background-image: url("images/hall/6.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;;
   width: 100%;
   height: 100%;
   position: absolute;
-    box-shadow: 10px 10px 0px #888888;
+  box-shadow: 10px 10px 40px rgb(0,0,0);
 }
 #p7{
   visibility: hidden;
-  background-color: rgb(255,0,255);
+  background-image: url("images/hall/7.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   width: 100%;
   height: 100%;
   position: absolute;
-  box-shadow: 10px 10px 0px #888888;
+  box-shadow: 10px 10px 40px rgb(0,0,0);
 }
 #navigator{
   flex: 1;
   display: flex;
   z-index: 9999;
   background-color: rgb(240,240,240);
+  border-radius: 3vh;
 }
 .a{
   flex: 1;
@@ -101,16 +124,22 @@ body{
   text-decoration: none;
 border-bottom: 0.1vh solid black;
 background-color: rgb(220,220,220);
+box-shadow: 10px 5px 40px rgb(0,0,0);
+border-bottom-right-radius: 3vh;
 }
 .pa{
   color: white;
-  margin: 1vh;
-  min-width: 15vw;
-  max-width: 15vw;
+  margin: 2vh;
+  min-width: 30vh;
+  max-width: 30vh;
   min-height: 30vh;
   background-image: url("images/hec/abhishek.jpg");
+  border-radius: 2vh;
   background-repeat: no-repeat;
+  border: groove;
   background-size: 100% 100%;
+  box-shadow: 10px 5px 20px #888888;
+  float: left;
 }
 .paa{
   text-align: center;
@@ -124,7 +153,25 @@ background-color: rgb(220,220,220);
   visibility: hidden;
 }
 .pa:hover>.paa{
-  background-image: linear-gradient(rgba(0,0,0,0.6) 50%,rgba(0,0,0,0));
-
+  background-image: linear-gradient(rgba(0,0,0,0.6) 35%,rgba(0,0,0,0));
+}
+.pa:hover{
+      box-shadow: 10px 10px 40px rgb(0,0,0);
 }
 .pa:hover > .paa>.hi{visibility: visible;}
+a:visited{
+  text-decoration: none;
+}
+#helli{
+  width: 90%;
+  flex: 8;
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 5vh;
+  margin: auto;
+}
+#hellio{
+text-align: center;
+font-size: 5vh;
+flex: 1;
+
+}
