@@ -5,6 +5,18 @@ body{
   position: absolute;
 
 }
+@font-face {
+   font-family: myFirstFont;
+   src: url('Artifika-Regular.ttf');
+}
+@font-face {
+   font-family: rom;
+   src: url('Rom.ttf');
+}
+@font-face {
+   font-family: rio;
+   src: url('rio.ttf');
+}
 #whole{
   width: 100vw;
   height: 100vh;
@@ -68,7 +80,8 @@ body{
   visibility: hidden;
   background-image: url("images/hall/4.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;  width: 100%;
+  background-size: 100% 100%;
+  width: 100%;
   height: 100%;
   position: absolute;
   box-shadow: 10px 10px 40px rgb(0,0,0);
@@ -108,16 +121,16 @@ body{
   flex: 1;
   display: flex;
   z-index: 9999;
-  background-color: rgb(240,240,240);
-  border-radius: 3vh;
+  background-color: rgba(150,150,150,0.7);
 }
 .a{
   flex: 1;
   text-align: center;
   width: 10vw;
-  font-family: sans-serif;
-  color: grey;
+  font-family:myFirstFont;
+  color: black;
   font-size: 1vw;
+  border-radius: 0.5vh;
 }
 .a:hover{
   color: rgb(80,80,80);
@@ -125,7 +138,7 @@ body{
 border-bottom: 0.1vh solid black;
 background-color: rgb(220,220,220);
 box-shadow: 10px 5px 40px rgb(0,0,0);
-border-bottom-right-radius: 3vh;
+
 }
 .pa{
   color: white;
@@ -145,15 +158,16 @@ border-bottom-right-radius: 3vh;
   text-align: center;
   font-size: 20px;
   vertical-align: bottom;
+  font-family: rom;
   height: auto;
-  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0));
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2));
 
 }
 .hi{
   visibility: hidden;
 }
 .pa:hover>.paa{
-  background-image: linear-gradient(rgba(0,0,0,0.6) 35%,rgba(0,0,0,0));
+  background-image: linear-gradient(rgba(0,0,0,0.7) 35%,rgba(0,0,0,0.3));
 }
 .pa:hover{
       box-shadow: 10px 10px 40px rgb(0,0,0);
@@ -168,10 +182,51 @@ a:visited{
   background-color: rgba(0,0,0,0.3);
   border-radius: 5vh;
   margin: auto;
+  min-height: 10vh;
+  height: auto;
+  overflow-y: scroll;
 }
 #hellio{
 text-align: center;
-font-size: 5vh;
+font-size: 10vh;
 flex: 1;
+font-family: rio;
 
+}
+form{
+  margin-top: 10vh;
+  font-family: rom;
+  text-align: center;
+  background: rgba(0,0,0,0.3);
+  padding: 1vh;
+  margin-bottom:2vh;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: rom;
+}
+
+#button,button {
+    font-family: rom;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.club{
+  width: 100%;
+  height: 50%;
+  background-color: rgba(0,0,0,0.3);
+  overflow-y: scroll;
+  visibility: hidden;
 }
