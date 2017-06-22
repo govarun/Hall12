@@ -1,4 +1,4 @@
-var doing =0,present=1,no=0,previous=0,pre=0;
+var doing =0,present=0,no=0,previous=0,pre=0;
   function sd() {
     setTimeout(function () {
     if(doing==0&&no==0){
@@ -166,7 +166,7 @@ else if(n==6)
   a= "Masala Dosa - Soya Methi Aloo, Arhar Dal - Kadhai paneer, Masoor Dal";
 }
 var bbbb=a.split('-');
-document.getElementById('bbbb').innerHTML="<div style='font-family:rio;font-size:2vh; background-color:rgba(0,0,0,0.3);padding:1vh;'>Mess menu</div>Breakfast:"+bbbb[0]+"<hr><br>Lunch:"+bbbb[1]+"<hr><br>Dinner:"+bbbb[2];  
+document.getElementById('bbbb').innerHTML="<div style='font-family:rio;font-size:2vh; background-color:rgba(0,0,0,0.3);padding:1vh;'>Mess menu</div>Breakfast:"+bbbb[0]+"<hr><br>Lunch:"+bbbb[1]+"<hr><br>Dinner:"+bbbb[2];
 }
   window.addEventListener('wheel', function(e) {
     if (e.deltaY < 0) {
@@ -177,4 +177,14 @@ document.getElementById('bbbb').innerHTML="<div style='font-family:rio;font-size
       console.log('scrolling down');
       sd();
     }
+  });
+  $(document).ready(function(){
+      $("#flip").click(function(){
+          $("#panel").slideToggle("slow");
+      });
+  });
+  $(document).ready(function(){
+      $("#fli").click(function(){
+          $("#pane").slideToggle("slow");
+      });
   });
