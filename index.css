@@ -169,7 +169,6 @@ box-shadow: 10px 5px 40px rgb(0,0,0);
   min-width: 30vh;
   max-width: 30vh;
   min-height: 30vh;
-  background-image: url("images/hec/abhishek.jpg");
   border-radius: 2vh;
   background-repeat: no-repeat;
   border: groove;
@@ -187,6 +186,7 @@ a{
   font-family: rom;
   height: auto;
   background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2));
+  margin-top: 80%;
 
 }
 .hi{
@@ -254,7 +254,8 @@ input[type=text], select {
 .button,button,input[type=submit],input[type=reset] {
     font-family: rom;
     font-size: 2vh;
-    width: 50%;
+    min-width: 5vh;
+    max-width: 20vh;
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;

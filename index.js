@@ -57,7 +57,7 @@ var doing =0,present=0,no=0,previous=0,pre=0;
       }
       doing=1;
       document.getElementById('a'+present). style.boxShadow='none';
-      document.getElementById('a'+present). style.backgroundColor='rgba(0,0,0,0.3)';
+      document.getElementById('a'+present). style.backgroundColor='rgba(0,0,0,0)';
       document.getElementById('a'+(i)%8). style.backgroundColor=' #ff5a00';
       document.getElementById('a'+i%8). style.boxShadow='10px 5px 40px rgb(0,0,0)';
       var f= document.getElementById('p'+present);
