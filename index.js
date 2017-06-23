@@ -189,7 +189,7 @@ document.getElementById('bbbb').innerHTML="<div style='font-family:rio;font-size
       });
   });
   var lastY;
-  $(document).bind('touchmove', function (e){
+/*  $(document).bind('touchmove', function (e){
        var currentY = e.originalEvent.touches[0].clientY;
        if(currentY > lastY){
            // moved down
@@ -203,3 +203,8 @@ document.getElementById('bbbb').innerHTML="<div style='font-family:rio;font-size
        }
        lastY = currentY;
   });
+*/
+$(document).on('swipedown',function(){console.log('scrolling down');
+sd();} );
+$(document).on('swipeup',function(){su();
+console.log('scrolling up');} );
