@@ -211,7 +211,7 @@ a:visited{
   height: auto;
   overflow-y: scroll;
 }
-#hellio{
+.hellio{
 text-align: center;
 font-size: 10vh;
 font-family: rio;
