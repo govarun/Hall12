@@ -188,3 +188,18 @@ document.getElementById('bbbb').innerHTML="<div style='font-family:rio;font-size
           $("#pane").slideToggle("slow");
       });
   });
+  var lastY;
+  $(document).bind('touchmove', function (e){
+       var currentY = e.originalEvent.touches[0].clientY;
+       if(currentY > lastY){
+           // moved down
+           console.log('scrolling down');
+           sd();
+
+       }else if(currentY < lastY){
+           // moved up
+           su();
+           console.log('scrolling up');
+       }
+       lastY = currentY;
+  });
