@@ -10,6 +10,10 @@ body{
    src: url('sam.ttf');
 }
 @font-face {
+   font-family: ubuntu;
+   src: url('Ubuntu-Bold.ttf');
+}
+@font-face {
    font-family: myFont;
    src: url('Artifika-Regular.ttf');
 }
@@ -135,6 +139,7 @@ body{
   height: 100%;
   position: absolute;
   box-shadow: 10px 10px 40px rgb(0,0,0);
+  display: flex;
 }
 #p7{
   visibility: hidden;
@@ -174,6 +179,9 @@ a{
   background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2));
   margin-top: 80%;
 }
+#links{
+  flex: 1;
+}
 .hi{
   visibility: hidden;
 }
@@ -202,7 +210,7 @@ font-size: 10vh;
 font-family: rio;
 
 }
-form,#flip,#fli{
+form{
   margin: auto;
   margin-top: 10vh;
   font-family: rio;
@@ -213,11 +221,21 @@ form,#flip,#fli{
   margin-bottom:4vh;
   font-size: 4vh;
 }
-#panel,#pane {
+#flip,#fli,#fl,#flii,#fliii{
   margin: auto;
+  margin-top: 5vh;
+  font-family: ubuntu;
+  text-align: center;
+  background-color: rgba(10,10,10,0.5);
+  padding: 1vh;
+  color:rgb(200,200,200);
+  width: 50%;
+  margin-bottom:4vh;
+  font-size: 2vh;
+}
+#panel,#pane,#pan ,#pann,#pannn{
   text-align: center;
   padding: 1vh;
-  width: 60%;
   margin-bottom:2vh;
   font-size: 4vh;
   display: none;
