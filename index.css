@@ -71,11 +71,13 @@ body{
 #anthumtop{
   font-size: 10vh;
 }
+@media screen and (min-width: 800px){
 #shivaji{
   flex: 1;
   background-image: url(shivaji.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
+}
 }
 #p2{
   visibility: hidden;
@@ -150,9 +152,9 @@ body{
 .pa{
   color: white;
   margin: 2vh;
-  min-width: 30vh;
-  max-width: 30vh;
-  min-height: 30vh;
+  min-width: 15vw;
+  max-width: 15vw;
+  min-height: 15vw;
   border-radius: 2vh;
   background-repeat: no-repeat;
   border: groove;
@@ -165,7 +167,7 @@ a{
 }
 .paa{
   text-align: center;
-  font-size: 20px;
+  font-size: 15px;
   vertical-align: bottom;
   font-family: rom;
   height: auto;
