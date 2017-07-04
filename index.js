@@ -163,6 +163,21 @@ var doing =0,present=0,no=0,previous=0,pre=0;
           $("#pane").slideToggle("slow");
       });
   });
+  $(document).ready(function(){
+      $("#fl").click(function(){
+          $("#pan").slideToggle("slow");
+      });
+  });
+  $(document).ready(function(){
+        $("#flii").click(function(){
+            $("#pann").slideToggle("slow");
+        });
+    });
+    $(document).ready(function(){
+          $("#fliii").click(function(){
+              $("#pannn").slideToggle("slow");
+          });
+      });
   var lastY;
   $(document).bind('touchmove', function (e){
        var currentY = e.originalEvent.touches[0].clientY;
