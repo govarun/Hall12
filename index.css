@@ -67,7 +67,7 @@ body{
   background-color: rgb(0,0,0);
   color: white;
   font-family: sam;
-  font-size: 3vw;
+  font-size: 30px;
   text-align: center;
   padding: 5vh;
   flex: 2.75;
@@ -76,12 +76,36 @@ body{
   font-size: 10vh;
 }
 @media screen and (min-width: 800px){
+  #az{
+    visibility: hidden;
+    z-index: -111;
+    height: 0px;
+  }
+#anthum{
+  font-size: 40px;
+}
+#link{
+  height: 100%;
+}
 #shivaji{
   flex: 1;
   background-image: url(shivaji.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+}
+@media screen and (max-width: 800px){
+  #link{
+    visibility: hidden;
+    z-index: -111;
+    height: 0px;
+  }
+  #az{
+    height: 100%;
+  }
+  #anthum{
+    font-size: 30px;
+  }
 }
 #p2{
   visibility: hidden;
@@ -138,7 +162,6 @@ body{
   height: 100%;
   position: absolute;
   box-shadow: 10px 10px 40px rgb(0,0,0);
-  display: flex;
 }
 #p7{
   visibility: hidden;
@@ -156,9 +179,10 @@ body{
 .pa{
   color: white;
   margin: 2vh;
-  min-width: 15vw;
-  max-width: 15vw;
-  min-height: 15vw;
+  min-width: 300px;
+  max-width: 300px;
+  min-height: 300px;
+  max-height: 300px;
   border-radius: 2vh;
   background-repeat: no-repeat;
   border: groove;
@@ -178,8 +202,19 @@ a{
   background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2));
   margin-top: 80%;
 }
+#link{
+  display: flex;
+  top: 0px;
+}
+#az{
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+}
 #links{
+  top: 0px;
   flex: 1;
+  z-index: 1;
 }
 .hi{
   visibility: hidden;
@@ -222,17 +257,18 @@ form{
   margin-bottom:4vh;
   font-size: 4vh;
 }
-#flip,#fli,#fl,#flii,#fliii{
+#flip,#fli,#fl,#flii,#fliii,.linked{
   margin: auto;
-  margin-top: 5vh;
+  margin-top: 2vh;
   font-family: ubuntu;
   text-align: center;
   background-color: rgba(10,10,10,0.5);
   padding: 1vh;
   color:rgb(200,200,200);
   width: 50%;
-  margin-bottom:4vh;
+  margin-bottom:2vh;
   font-size: 2vh;
+  height: 30px;
 }
 #panel,#pane,#pan ,#pann,#pannn{
   text-align: center;

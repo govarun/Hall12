@@ -153,30 +153,48 @@ var doing =0,present=0,no=0,previous=0,pre=0;
       sd();
     }
   });
+  var last=null;
   $(document).ready(function(){
+
       $("#flip").click(function(){
+        if(last!=null&&last!=$("#panel")){
+          last.slideToggle("slow");
+        }
+        last=$("#panel");
           $("#panel").slideToggle("slow");
       });
-  });
-  $(document).ready(function(){
+
       $("#fli").click(function(){
+        if(last!=null&&last!=$("#pane")){
+          last.slideToggle("slow");
+        }
+        last=$("#pane");
           $("#pane").slideToggle("slow");
       });
-  });
-  $(document).ready(function(){
+
       $("#fl").click(function(){
+        if(last!=null||last!=$("#pan")){
+          last.slideToggle("slow");
+        }
+        last=$("#pan");
           $("#pan").slideToggle("slow");
       });
-  });
-  $(document).ready(function(){
-        $("#flii").click(function(){
-            $("#pann").slideToggle("slow");
+
+      $("#flii").click(function(){
+        if(last!=null||last!=$("#pann")){
+          last.slideToggle("slow");
+        }
+        last=$("#pann");
+        $("#pann").slideToggle("slow");
         });
-    });
-    $(document).ready(function(){
-          $("#fliii").click(function(){
-              $("#pannn").slideToggle("slow");
-          });
+
+        $("#fliii").click(function(){
+        if(last!=null||last!=$("#pannn")){
+          last.slideToggle("slow");
+        }
+        last=$("#pannn");
+        $("#pannn").slideToggle("slow");
+        });
       });
   var lastY;
   $(document).bind('touchmove', function (e){
