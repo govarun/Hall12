@@ -2,10 +2,10 @@ var doing =0,present=0,no=0,previous=0,pre=0;
   function sd() {
     setTimeout(function () {
       if(doing==0&&no==0){
-        present=present%8;
+        present=present%7;
         console.log('hello');
         doing=1;
-        if (present==3) {
+        if (present==6) {
           document.getElementById(previous).style.visibility='hidden';
           document.getElementById(previous).style.zIndex='0';
         }
@@ -14,7 +14,7 @@ var doing =0,present=0,no=0,previous=0,pre=0;
           document.getElementById('b'+pre).style.zIndex='0';
         }
         var f= document.getElementById('p'+present);
-        var d= document.getElementById('p'+(present+1)%8);
+        var d= document.getElementById('p'+(present+1)%7);
         d.style.zIndex='0';
         d.style.visibility='visible';
         f.className += " animated slideOutUp";
@@ -38,9 +38,9 @@ var doing =0,present=0,no=0,previous=0,pre=0;
   }
   function go(i) {
     if(doing==0&&i!=present){
-      present=present%8;
+      present=present%7;
       console.log('hello');
-      if (present==3) {
+      if (present==6) {
         document.getElementById(previous).style.visibility='hidden';
         document.getElementById(previous).style.zIndex='0';
       }
@@ -50,7 +50,7 @@ var doing =0,present=0,no=0,previous=0,pre=0;
       }
       doing=1;
       var f= document.getElementById('p'+present);
-      var d= document.getElementById('p'+i%8);
+      var d= document.getElementById('p'+i%7);
       d.style.zIndex='0';
       d.style.visibility='visible';
       f.className += " animated slideOutUp";
@@ -68,9 +68,9 @@ var doing =0,present=0,no=0,previous=0,pre=0;
   function su() {
     setTimeout(function () {
     if(doing==0&&no==0){
-      present=present%8;
+      present=present%7;
       console.log('hello');
-      if (present==3) {
+      if (present==6) {
         document.getElementById(previous).style.visibility='hidden';
         document.getElementById(previous).style.zIndex='0';
       }
@@ -80,7 +80,7 @@ var doing =0,present=0,no=0,previous=0,pre=0;
       }
       doing=1;
       var f= document.getElementById('p'+present),
-      d=document.getElementById('p'+(present+7)%8);
+      d=document.getElementById('p'+(present+6)%7);
       f.style.zIndex='0';
       d.style.zIndex='1';
       d.style.visibility='visible';
@@ -93,7 +93,7 @@ var doing =0,present=0,no=0,previous=0,pre=0;
       },1000);
       present--;
       if (present==-1) {
-        present=7;
+        present=6;
       }
     }
   },2);
@@ -114,6 +114,9 @@ var doing =0,present=0,no=0,previous=0,pre=0;
   }
   function mess() {
     var n=document.getElementById('abbba').value;
+    messing(n);
+  }
+  function messing(n) {
     if(n==7){
       var ddd = new Date();
       n= ddd.getDay();
@@ -155,7 +158,7 @@ var doing =0,present=0,no=0,previous=0,pre=0;
   });
   var last=null;
   $(document).ready(function(){
-
+      messing(7);
       $("#flip").click(function(){
         if(last!=null&&last!=$("#panel")){
           last.slideToggle("slow");
