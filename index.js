@@ -128,25 +128,25 @@ $(this).toggleClass('open');
     }
     var a;
     if(n==0){
-      a= "Jalebi, Poha - Parathe - Aloo Cabbage, Mix Dal    ";
+      a= "Masala Dosa with Sambhar,Nariyal Chutney- Aloo Tamater Gravy,  Chana dal , Aloo, Mix Veg & Paneer Paratha with Imli Chutney ,Lassi - Aloo Soyabeen, Mix Dal Finger Chips  Extra: Chicken Biryani    ";
     }
     else if(n==1){
-      a= "Bada pav or Macroni - Kadhai, Aloo Jeera - Veg Kofta, Arhar Dal";
+      a= "Burger/ Pav Bhaji Extra :Cheese-Kadhi Tadka, Aloo Achari Roohafza Extra :Afgani Paneer - Veg Kofta, Arhar Dal";
     }
     else if(n==2){
-      a= "Parathe - Aloo Soyabeen, Rajma - Matar paneer, Parathe";
+      a= "Paratha: Aloo, Onion & Mix Veg with Imli Chutni -Mix Veg, Arhar Palak dal ,Chhach -Mater Paneer, Masoor Dal, Plain Paratha ";
     }
     else if(n==3){
-      a= "Matar kachauri - Baigan Bharta, Masoor Dal - Aloo Palak, Tahri";
+      a= "Matar Kachauri With Aloo Sabji  -Kaddu, Razma, Boondi Raita, Nimboo Pani Extra:Egg Curry-  Bhindi Fry,Arher Dal Extra: Chicken Butter Masala/ Chicken Roasted";
     }
     else if(n==4){
-      a= "Idli or Uttpam - Jhalfry gravy, Arhar Dal - Chole, Kulche or Bhature";
+      a= "Idli / Wada (2pcs.),  Sambhar / Uttapam With Nariyal Chutney.-Aloo Baigan Dry/Aloo Cabbage Mater, Moong Dal, Lassi Extra : Paneer Butter Masala- Chhole, Bhatoora/Kulche Plain Roti, Custurd / Sewai";
     }
     else if(n==5){
-      a= "Sandwiches - Lauki Chana, Dal Makhani - Aloo Matar Tamatar, Puri";
+      a= "Veg Cutlet , Green  Chutney- Lauki Masala, Arhar Dal , Chhach Extra: Paneer Jhal Freji- Aloo Mater Tamatar Gravy, Plain Puri, Palak Puri, Lemon Rice, Lal Masoor Dal, Kheer";
     }
     else if(n==6){
-      a= "Masala Dosa - Soya Methi Aloo, Arhar Dal - Kadhai paneer, Masoor Dal";
+      a= "Jalebi With Curd , Poha Extra : Namkeen-Aloo Parwal Dry, Dal Makhani  Aam Pana Extra :Veg Biryani-Paneer Makhana, Arhar dal, Nan Roti,Tandoori Roti Jeera Rice,Garlic Naan Sweet: Gulab Jamun,";
     }
     var bbbb=a.split('-');
     document.getElementById('bbbb').innerHTML="<div style='font-family:rio;font-size:2vh; background-color:rgba(0,0,0,0.3);padding:1vh;'>Mess menu</div>Breakfast : "+bbbb[0]+"<br><br><hr>Lunch : "+bbbb[1]+"<br><br><hr>Dinner:"+bbbb[2];
