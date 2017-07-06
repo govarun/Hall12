@@ -4,6 +4,11 @@ $('.menu-toggle').click(function() {
 $('.site-nav').toggleClass('site-nav--open');
 $(this).toggleClass('open');
 });
+$('.site-nav').click(function() {
+
+$('.site-nav').toggleClass('site-nav--open');
+$(this).toggleClass('open');
+});
   function sd() {
     setTimeout(function () {
       if(doing==0&&no==0){
@@ -149,7 +154,7 @@ $(this).toggleClass('open');
       a= "Masala Dosa - Soya Methi Aloo, Arhar Dal - Kadhai paneer, Masoor Dal";
     }
     var bbbb=a.split('-');
-    document.getElementById('bbbb').innerHTML="<div style='font-family:rio;font-size:2vh; background-color:rgba(0,0,0,0.3);padding:1vh;'>Mess menu</div>Breakfast:"+bbbb[0]+"<hr><br>Lunch:"+bbbb[1]+"<hr><br>Dinner:"+bbbb[2];
+    document.getElementById('bbbb').innerHTML="<div style='font-family:rio;font-size:2vh; background-color:rgba(0,0,0,0.3);padding:1vh;'>Mess menu</div>Breakfast : "+bbbb[0]+"<br><br><hr>Lunch : "+bbbb[1]+"<br><br><hr>Dinner:"+bbbb[2];
   }
   window.addEventListener('wheel', function(e) {
     if (e.deltaY < 0) {
