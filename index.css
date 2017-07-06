@@ -389,7 +389,7 @@ input[type=text], select {
 }
 
 header {
-  background: rgba(90,90,90,0.6);
+  background: rgba(90,90,90,1);
   color: #EBEBD3;
   padding: 1em 0;
   position: relative;
@@ -401,17 +401,6 @@ header::after {
   clear: both;
   display: block;
 }
-.logo {
-  float: left;
-  font-size: 1rem;
-  margin: 0;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-.logo span {
-  font-weight: 400;
-}
-
 .site-nav {
   position: absolute;
   top: 100%;
@@ -440,9 +429,9 @@ header::after {
 }
 
 .site-nav a {
-  color: #EBEBD3;
+  color: rgb(209, 209, 192);
   display: block;
-  padding: 2em 4em 2em 1.5em;
+  padding: 1em 4em 1em 1.5em;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -509,10 +498,11 @@ header::after {
   }
 
   .site-nav {
+    width: 100vw;
     height: auto;
     position: relative;
     background: transparent;
-    float: right;
+    float: left;
     clip-path: initial;
   }
 
