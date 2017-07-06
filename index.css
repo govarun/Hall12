@@ -10,6 +10,10 @@ body{
    src: url('sam.ttf');
 }
 @font-face {
+   font-family: sama;
+   src: url('aileron.bold.otf');
+}
+@font-face {
    font-family: ubuntu;
    src: url('Ubuntu-Bold.ttf');
 }
@@ -43,7 +47,6 @@ body{
 #p1{
 
   visibility: hidden;
-  background-image: url("images/hall/8.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 100%;
@@ -58,7 +61,6 @@ body{
 }
 #p0{
 
-  background-image: url("images/hall/5.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 100%;
@@ -67,6 +69,9 @@ body{
   box-shadow: 10px 10px 40px rgb(0,0,0);
   display: flex;
   z-index: 2;
+  text-align: center;
+  font-family: opensans;
+
 
 }
 #anthum{
@@ -82,6 +87,24 @@ body{
   font-size: 10vh;
 }
 @media screen and (min-width: 800px){
+  #p0{
+    background-image: url("images/hall/desktop/hall.jpg");
+  }
+  #p1{
+    background-image: url("images/hall/desktop/hallenterence.jpg");
+  }
+  #p2{
+    background-image: url("images/hall/desktop/mess.jpg");
+  }
+  #p3{
+    background-image: url("images/hall/desktop/halloffice.jpg");
+  }
+  #p4{
+    background-image: url("images/hall/desktop/coridoor.jpg");
+  }
+  #p6{
+    background-image: url("images/hall/desktop/corridorside.jpg");
+  }
   #az{
     visibility: hidden;
     z-index: -111;
@@ -101,6 +124,24 @@ body{
 }
 }
 @media screen and (max-width: 800px){
+  #p0{
+    background-image: url("images/hall/mobile/hall.jpg");
+  }
+  #p1{
+    background-image: url("images/hall/mobile/canteen.jpg");
+  }
+  #p2{
+    background-image: url("images/hall/mobile/mess.jpg");
+  }
+  #p3{
+    background-image: url("images/hall/mobile/halloffice.jpg");
+  }
+  #p4{
+    background-image: url("images/hall/mobile/corridor.jpg");
+  }
+  #p6{
+    background-image: url("images/hall/mobile/corridors.jpg");
+  }
   #link{
     visibility: hidden;
     z-index: -111;
@@ -115,7 +156,6 @@ body{
 }
 #p2{
   visibility: hidden;
-  background-image: url("images/hall/1.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 100%;
@@ -128,7 +168,6 @@ body{
 
 
   visibility: hidden;
-  background-image: url("images/hall/6.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;;
   width: 100%;
@@ -138,7 +177,6 @@ body{
 }
 #p4{
   visibility: hidden;
-  background-image: url("images/hall/4.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 100%;
@@ -161,7 +199,6 @@ body{
 }
 #p6{
   visibility: hidden;
-  background-image: url("images/hall/3.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;  width: 100%;
   height: 100%;
