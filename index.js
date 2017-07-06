@@ -1,4 +1,9 @@
 var doing =0,present=0,no=0,previous=0,pre=0;
+$('.menu-toggle').click(function() {
+
+$('.site-nav').toggleClass('site-nav--open');
+$(this).toggleClass('open');
+});
   function sd() {
     setTimeout(function () {
       if(doing==0&&no==0){
