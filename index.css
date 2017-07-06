@@ -7,35 +7,31 @@ body{
 }
 @font-face {
    font-family: sam;
-   src: url('futura-light-condensed-bt-595e133b1a4ff.ttf');
+   src: url('fonts/futura-light-condensed-bt-595e133b1a4ff.ttf');
 }
 @font-face {
    font-family: sama;
-   src: url('HelveticaRounded-Bold.otf');
+   src: url('fonts/HelveticaRounded-Bold.otf');
 }
 @font-face {
    font-family: samaa;
-   src: url('futura-light-condensed-bt-595e133b1a4ff.ttf');
+   src: url('fonts/futura-light-condensed-bt-595e133b1a4ff.ttf');
 }
 @font-face {
    font-family: ubuntu;
-   src: url('Ubuntu-Bold.ttf');
+   src: url('fonts/Ubuntu-Bold.ttf');
 }
 @font-face {
    font-family: myFont;
-   src: url('Artifika-Regular.ttf');
-}
-@font-face {
-   font-family: myFirstFont;
-   src: url('Fax.otf');
+   src: url('fonts/Artifika-Regular.ttf');
 }
 @font-face {
    font-family: rom;
-   src: url('Rom.ttf');
+   src: url('fonts/Rom.ttf');
 }
 @font-face {
    font-family: rio;
-   src: url('TrajanPro-Regular.ttf');
+   src: url('fonts/TrajanPro-Regular.ttf');
 }
 #whole{
   width: 100vw;
