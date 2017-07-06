@@ -4,11 +4,6 @@ $('.menu-toggle').click(function() {
 $('.site-nav').toggleClass('site-nav--open');
 $(this).toggleClass('open');
 });
-$('.site-nav').click(function() {
-
-$('.site-nav').toggleClass('site-nav--open');
-$(this).toggleClass('open');
-});
   function sd() {
     setTimeout(function () {
       if(doing==0&&no==0){
@@ -186,7 +181,7 @@ $(this).toggleClass('open');
       });
 
       $("#fl").click(function(){
-        if(last!=null||last!=$("#pan")){
+        if(last!=null&&last!=$("#pan")){
           last.slideToggle("slow");
         }
         last=$("#pan");
@@ -194,7 +189,7 @@ $(this).toggleClass('open');
       });
 
       $("#flii").click(function(){
-        if(last!=null||last!=$("#pann")){
+        if(last!=null&&last!=$("#pann")){
           last.slideToggle("slow");
         }
         last=$("#pann");
@@ -202,15 +197,22 @@ $(this).toggleClass('open');
         });
 
         $("#fliii").click(function(){
-        if(last!=null||last!=$("#pannn")){
+        if(last!=null&&last!=$("#pannn")){
           last.slideToggle("slow");
         }
         last=$("#pannn");
         $("#pannn").slideToggle("slow");
         });
+        $("#fliiii").click(function(){
+        if(last!=null&&last!=$("#pannnn")){
+          last.slideToggle("slow");
+        }
+        last=$("#pannnn");
+        $("#pannnn").slideToggle("slow");
+        });
       });
   var lastY;
-  $(document).bind('touchmove', function (e){
+/*  $(document).bind('touchmove', function (e){
        var currentY = e.originalEvent.touches[0].clientY;
        if(currentY > lastY){
            console.log('scrolling down');
@@ -220,4 +222,34 @@ $(this).toggleClass('open');
            console.log('scrolling up');
        }
        lastY = currentY;
+  });*/
+  $(document).addEventListener('mousewheel', function(e){
+      if(e.originalEvent.detail > 0) {
+          //scroll down
+          sd();
+          console.log('Down');
+      }else {
+        su();
+          //scroll up
+          console.log('Up');
+      }
+
+      //prevent page fom scrolling
+      return false;
+  });
+
+  //IE, Opera, Safari
+  $(document).addEventListener('mousewheel', function(e){
+      if(e.originalEvent.wheelDelta < 0) {
+          //scroll down
+          sd();
+          console.log('Down');
+      }else {
+          //scroll up
+          su();
+          console.log('Up');
+      }
+
+      //prevent page fom scrolling
+      return false;
   });
