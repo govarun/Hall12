@@ -93,7 +93,8 @@ body{
 
   visibility: hidden;
   background-repeat: no-repeat;
-  background-size: 100% 95%;
+  background-size: 100% 100%;
+
   width: 100%;
   height: 100%;
   position: absolute;
@@ -108,7 +109,8 @@ body{
 #p0{
 
   background-repeat: no-repeat;
-  background-size: 100% 95%;
+  background-size: 100% 100%;
+
   width: 100%;
   height: 100%;
   position: absolute;
@@ -213,7 +215,8 @@ body{
 #p2{
   visibility: hidden;
   background-repeat: no-repeat;
-  background-size: 100% 95%;
+  background-size: 100% 100%;
+
   width: 100%;
   height: 100%;
   position: absolute;
@@ -227,7 +230,8 @@ body{
 
   visibility: hidden;
   background-repeat: no-repeat;
-  background-size: 100% 95%;;
+  background-size: 100% 100%;
+;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -236,7 +240,8 @@ body{
 #p4{
   visibility: hidden;
   background-repeat: no-repeat;
-  background-size: 100% 95%;
+  background-size: 100% 100%;
+
   width: 100%;
   height: 100%;
   position: absolute;
@@ -248,7 +253,8 @@ body{
   visibility: hidden;
   background-color: black;
   background-repeat: no-repeat;
-  background-size: 100% 95%;
+  background-size: 100% 100%;
+
   width: 100%;
   height: 100%;
   position: absolute;
@@ -259,7 +265,8 @@ body{
 #p6{
   visibility: hidden;
   background-repeat: no-repeat;
-  background-size: 100% 95%;  width: 100%;
+  background-size: 100% 100%;
+  width: 100%;
   height: 100%;
   position: absolute;
 
