@@ -223,7 +223,7 @@ $(this).toggleClass('open');
        }
        lastY = currentY;
   });*/
-  $(document).addEventListener('mousewheel', function(e){
+  document.addEventListener('mousewheel', function(e){
       if(e.originalEvent.detail > 0) {
           //scroll down
           sd();
@@ -239,7 +239,7 @@ $(this).toggleClass('open');
   });
 
   //IE, Opera, Safari
-  $(document).addEventListener('mousewheel', function(e){
+  document.addEventListener('mousewheel', function(e){
       if(e.originalEvent.wheelDelta < 0) {
           //scroll down
           sd();
