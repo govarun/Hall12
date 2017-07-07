@@ -254,3 +254,8 @@ $(this).toggleClass('open');
       //prevent page fom scrolling
       return false;
   });
+  $(document).on("pagecreate",function(event){
+    $(window).on("orientationchange",function(event){
+      alert("Orientation changed to: " + event.orientation);
+    });
+  });
