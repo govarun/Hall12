@@ -238,6 +238,7 @@ $(this).toggleClass('open');
       return false;
   });
 
+
   //IE, Opera, Safari
   document.addEventListener('mousewheel', function(e){
       if(e.originalEvent.wheelDelta < 0) {

@@ -126,6 +126,9 @@ body{
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+  #azara{
+    font-size: 40px;
+  }
 }
 @media screen and (max-width: 800px){
   #p0{
@@ -155,6 +158,9 @@ body{
     height: 100%;
   }
   #anthum{
+    font-size: 20px;
+  }
+  #azara{
     font-size: 20px;
   }
 }

@@ -36,8 +36,8 @@
 </header>
     <div id="bo">
       <div id="p0" class="pages" >
-        <div style="  position: absolute;  width: 100%;  background-size: 100% 100%;height: 100%;background-color:rgba(255,255,255,0.3);font-size:30px;display:flex;flex-direction:column;  align-items: center;justify-content: center;font-family:samaa;color:rgb(50,50,50);">
-        <br><br><br><div style="font-family:sama;font-size:50px;" class="animated slideUp">Hall 12</div><br><br><br><div style="width:50vw">Hall of Residence 12 is the newest among all other hostels at IIT Kanpur. It is the only male Hostel having a lift for the students. It is situated at north-west zone of IIT Kanpur campus. The hostel has six blocks, A, B, C, D, E, and F and each block is 6 storey building. It has capacity of about 600 students with about 456 rooms. The Hall has single, double and triple occupancy.. The hall mainly consists of first, second, third year B.Tech students.</div>
+        <div id="azara" style="  position: absolute;  width: 100%;  background-size: 100% 100%;height: 100%;background-color:rgba(255,255,255,0.3);display:flex;flex-direction:column;  align-items: center;justify-content: center;font-family:samaa;color:rgb(50,50,50);">
+        <br><br><br><div style="font-family:sama;" class="a animated slideUp">Hall 12</div><br><br><br><div style="width:50vw">Hall of Residence 12 is the newest among all other hostels at IIT Kanpur. It is the only male Hostel having a lift for the students. It is situated at north-west zone of IIT Kanpur campus. The hostel has six blocks, A, B, C, D, E, and F and each block is 6 storey building. It has capacity of about 600 students with about 456 rooms. The Hall has single, double and triple occupancy.. The hall mainly consists of first, second, third year B.Tech students.</div>
       </div></div>
       <div id="p1" class="pages" >
         <div class="helli" onmouseover="nonnn()" onmouseout="yes()">
@@ -198,9 +198,8 @@
         <form >
           Counselling Service<br>
           <select name="cs" id="abba">
+            <option value="8">Core team</option>
             <option value="7">SG</option>
-            <<option value="8">Core team</option>
-          </optgroup>
             <optgroup label="AM">
               <option value="0">MTH101/102</option>
               <option value="1">ESC101</option>
@@ -369,3 +368,12 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 <script src="index.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script>
+$(document).on("pagecreate",function(event){
+  $(window).on("orientationchange",function(event){
+    alert("Orientation changed to: " + event.orientation);
+  });
+});
+</script>
