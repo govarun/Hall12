@@ -1,11 +1,11 @@
 body{
   width: 100%;
-  height: 100%
-  overflow: hidden;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
   position: absolute;
   display: flex;
   flex-direction: column;
-  background-size: 100% 100%;
   margin: 0px;
 }
 @font-face {
@@ -19,10 +19,6 @@ body{
 @font-face {
    font-family: samaa;
    src: url('fonts/futura-light-condensed-bt-595e133b1a4ff.ttf');
-}
-@font-face {
-   font-family: ubuntu;
-   src: url('fonts/Ubuntu-Bold.ttf');
 }
 @font-face {
    font-family: myFont;
@@ -132,7 +128,6 @@ body{
   flex: 2.75;
 }
 .anthumtop{
-  font-size: 50px;
   font-family: rio;
   font-weight: bold;
 }
@@ -154,6 +149,9 @@ body{
   }
   #p6{
     background-image: url("images/hall/desktop/corridorside.jpg");
+  }
+  .anthumtop{
+    font-size: 50px;
   }
   #az{
     visibility: hidden;
@@ -205,6 +203,9 @@ body{
   }
   #anthum{
     font-size: 20px;
+  }
+  .anthumtop{
+    font-size: 30px;
   }
   #azara{
     font-size: 20px;
@@ -288,7 +289,7 @@ body{
 }
 a{
   text-decoration: none;
-  color: white;
+  color: rgb(200,200,200);
 }
 .paa{
   text-align: center;
@@ -325,6 +326,7 @@ a{
 .pa:hover > .paa>.hi{visibility: visible;}
 a:visited{
   text-decoration: none;
+  color: rgb(200,200,200);
 }
 .helli{
   width: 90%;
@@ -372,14 +374,14 @@ form{
 #flip,#fli,#fl,#flii,#fliii,.linked,#fliiii{
   margin: auto;
   margin-top: 2vh;
-  font-family: ubuntu;
+  font-family: sam;
   text-align: center;
   background-color: rgba(10,10,10,0.5);
   padding: 1vh;
   color:rgb(200,200,200);
   width: 50%;
   margin-bottom:2vh;
-  font-size: 2vh;
+  font-size: 16px;
   height: 25px;
 }
 #panel,#pane,#pan ,#pann,#pannn,#pannnn{
