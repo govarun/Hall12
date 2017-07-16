@@ -493,11 +493,10 @@ input[type=reset] {
 .club {
     position: absolute;
     display: hidden;
-    top: 40%;
     left: 0%;
     right: 0%;
     width: 88%;
-    height: 50%;
+    height: 60%;
     margin-left: 6%;
     background-color: rgba(255, 255, 255, 0.3);
     visibility: hidden;
