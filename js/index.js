@@ -1,16 +1,10 @@
-var doing = 0,
-    present = 0,
-    no = 0,
-    previous = 0,
-    pre = 0,
-    pond = 0;
+var doing = 0,present = 0,no = 0,previous = 0,pre = 0,pond = 0;
+document.getElementById('a' + present).style.color = 'rgb(10,10,10)';
 $('.menu-toggle').click(function() {
-
     $('.site-nav').toggleClass('site-nav--open');
     $(this).toggleClass('open');
     pond = 0;
 });
-
 $(document).click(function() {
     if (pond == 1) {
         pond == 0;
@@ -18,23 +12,22 @@ $(document).click(function() {
         $(this).toggleClass('open');
     }
 });
-
 function sd() {
     setTimeout(function() {
         if (doing == 0 && no == 0) {
-            present = present % 7;
-            console.log('hello');
+            present = present % 8;
             doing = 1;
-            if (present == 6) {
+            if (present == 7) {
                 document.getElementById(previous).style.visibility = 'hidden';
                 document.getElementById(previous).style.zIndex = '0';
             }
-            if (present == 4) {
+            if (present == 5) {
                 document.getElementById('b' + pre).style.visibility = 'hidden';
                 document.getElementById('b' + pre).style.zIndex = '0';
             }
+            document.getElementById('a' + present).style.color = '';
             var f = document.getElementById('p' + present);
-            var d = document.getElementById('p' + (present + 1) % 7);
+            var d = document.getElementById('p' + (present + 1) % 8);
             d.style.zIndex = '0';
             d.style.visibility = 'visible';
             f.className += " animated slideOutUp";
@@ -46,61 +39,66 @@ function sd() {
                 doing = 0;
             }, 1500);
             present++;
+            present = present % 8;
+            document.getElementById('a' + present).style.color = 'rgb(10,10,10)';
         }
     }, 10);
 }
-
 function dd() {
-    present = present % 7;
-    console.log('hello');
-    doing = 1;
-    if (present == 6) {
-        document.getElementById(previous).style.visibility = 'hidden';
-        document.getElementById(previous).style.zIndex = '0';
-    }
-    if (present == 4) {
-        document.getElementById('b' + pre).style.visibility = 'hidden';
-        document.getElementById('b' + pre).style.zIndex = '0';
-    }
-    var f = document.getElementById('p' + present);
-    var d = document.getElementById('p' + (present + 1) % 7);
-    d.style.zIndex = '0';
-    d.style.visibility = 'visible';
-    f.className += " animated slideOutUp";
     setTimeout(function() {
-        d.style.zIndex = '1';
-        f.style.zIndex = '0';
-        f.style.visibility = 'hidden';
-        f.className = 'pages';
-        doing = 0;
-    }, 1500);
-    present++;
+        if (doing == 0) {
+            present = present % 8;
+            doing = 1;
+            if (present == 7) {
+                document.getElementById(previous).style.visibility = 'hidden';
+                document.getElementById(previous).style.zIndex = '0';
+            }
+            if (present == 5) {
+                document.getElementById('b' + pre).style.visibility = 'hidden';
+                document.getElementById('b' + pre).style.zIndex = '0';
+            }
+            document.getElementById('a' + present).style.color = '';
+            var f = document.getElementById('p' + present);
+            var d = document.getElementById('p' + (present + 1) % 8);
+            d.style.zIndex = '0';
+            d.style.visibility = 'visible';
+            f.className += " animated slideOutUp";
+            setTimeout(function() {
+                d.style.zIndex = '1';
+                f.style.zIndex = '0';
+                f.style.visibility = 'hidden';
+                f.className = 'pages';
+                doing = 0;
+            }, 1500);
+            present++;
+            present = present % 8;
+            document.getElementById('a' + present).style.color = 'rgb(10,10,10)';
+        }
+    }, 10);
 }
-
 function nonnn() {
-    console.log(110);
     no = 1;
+    console.log('no');
 }
-
 function yes() {
     no = 0;
+    console.log('yes');
 }
-
 function go(i) {
     if (doing == 0 && i != present) {
-        present = present % 7;
-        console.log('hello');
-        if (present == 6) {
+        present = present % 8;
+        if (present == 7) {
             document.getElementById(previous).style.visibility = 'hidden';
             document.getElementById(previous).style.zIndex = '0';
         }
-        if (present == 4) {
+        if (present == 5) {
             document.getElementById('b' + pre).style.visibility = 'hidden';
             document.getElementById('b' + pre).style.zIndex = '0';
         }
         doing = 1;
+        document.getElementById('a' + present).style.color = '';
         var f = document.getElementById('p' + present);
-        var d = document.getElementById('p' + i % 7);
+        var d = document.getElementById('p' + i % 8);
         d.style.zIndex = '0';
         d.style.visibility = 'visible';
         f.className += " animated slideOutUp";
@@ -112,26 +110,27 @@ function go(i) {
             f.className = 'pages';
             doing = 0;
             present = i;
+            document.getElementById('a' + present).style.color = 'rgb(10,10,10)';
         }, 1500);
     }
 }
-
 function su() {
+    console.log('su');
     setTimeout(function() {
         if (doing == 0 && no == 0) {
-            present = present % 7;
-            console.log('hello');
-            if (present == 6) {
+            present = present % 8;
+            if (present == 7) {
                 document.getElementById(previous).style.visibility = 'hidden';
                 document.getElementById(previous).style.zIndex = '0';
             }
-            if (present == 4) {
+            if (present == 5) {
                 document.getElementById('b' + pre).style.visibility = 'hidden';
                 document.getElementById('b' + pre).style.zIndex = '0';
             }
             doing = 1;
+            document.getElementById('a' + present).style.color = '';
             var f = document.getElementById('p' + present),
-                d = document.getElementById('p' + (present + 6) % 7);
+                d = document.getElementById('p' + (present + 7) % 8);
             f.style.zIndex = '0';
             d.style.zIndex = '1';
             d.style.visibility = 'visible';
@@ -141,45 +140,50 @@ function su() {
                 f.style.visibility = 'hidden';
                 f.className = 'pages';
                 doing = 0;
-            }, 1500);
+            }, 1000);
             present--;
             if (present == -1) {
-                present = 6;
+                present = 7;
             }
+            document.getElementById('a' + present).style.color = 'rgb(10,10,10)';
         }
     }, 10);
 }
-
 function uu() {
-    present = present % 7;
-    console.log('hello');
-    if (present == 6) {
-        document.getElementById(previous).style.visibility = 'hidden';
-        document.getElementById(previous).style.zIndex = '0';
-    }
-    if (present == 4) {
-        document.getElementById('b' + pre).style.visibility = 'hidden';
-        document.getElementById('b' + pre).style.zIndex = '0';
-    }
-    doing = 1;
-    var f = document.getElementById('p' + present),
-        d = document.getElementById('p' + (present + 6) % 7);
-    f.style.zIndex = '0';
-    d.style.zIndex = '1';
-    d.style.visibility = 'visible';
-    d.className += " animated slideInDown";
     setTimeout(function() {
-        d.style.zIndex = '1';
-        f.style.visibility = 'hidden';
-        f.className = 'pages';
-        doing = 0;
-    }, 1500);
-    present--;
-    if (present == -1) {
-        present = 6;
-    }
-}
+        if (doing == 0 && no == 0) {
+            present = present % 8;
+            if (present == 7) {
+                document.getElementById(previous).style.visibility = 'hidden';
+                document.getElementById(previous).style.zIndex = '0';
+            }
+            if (present == 5) {
+                document.getElementById('b' + pre).style.visibility = 'hidden';
+                document.getElementById('b' + pre).style.zIndex = '0';
+            }
+            doing = 1;
+            document.getElementById('a' + present).style.color = '';
+            var f = document.getElementById('p' + present),
+                d = document.getElementById('p' + (present + 7) % 8);
+            f.style.zIndex = '0';
+            d.style.zIndex = '1';
+            d.style.visibility = 'visible';
+            d.className += " animated slideInDown";
+            setTimeout(function() {
+                d.style.zIndex = '1';
+                f.style.visibility = 'hidden';
+                f.className = 'pages';
+                doing = 0;
+            }, 1000);
+            present--;
+            if (present == -1) {
+                present = 7;
+            }
+            document.getElementById('a' + present).style.color = 'rgb(10,10,10)';
 
+        }
+    }, 10);
+}
 function club() {
     document.getElementById(previous).style.visibility = 'hidden';
     document.getElementById(previous).style.zIndex = '0';
@@ -187,7 +191,6 @@ function club() {
     document.getElementById(previous).style.visibility = 'visible';
     document.getElementById(previous).style.zIndex = '1';
 }
-
 function cs() {
     document.getElementById('b' + pre).style.visibility = 'hidden';
     document.getElementById('b' + pre).style.zIndex = '0';
@@ -195,12 +198,10 @@ function cs() {
     document.getElementById('b' + pre).style.visibility = 'visible';
     document.getElementById('b' + pre).style.zIndex = '1';
 }
-
 function mess() {
     var n = document.getElementById('abbba').value;
     messing(n);
 }
-
 function messing(n) {
     if (n == 7) {
         var ddd = new Date();
@@ -228,10 +229,8 @@ function messing(n) {
 window.addEventListener('wheel', function(e) {
     if (e.deltaY < 0) {
         su();
-        console.log('scrolling up');
     }
     if (e.deltaY > 0) {
-        console.log('scrolling down');
         sd();
     }
 });
@@ -245,7 +244,6 @@ $(document).ready(function() {
         last = $("#panel");
         $("#panel").slideToggle("slow");
     });
-
     $("#fli").click(function() {
         if (last != null && last != $("#pane")) {
             last.slideToggle("slow");
@@ -253,7 +251,6 @@ $(document).ready(function() {
         last = $("#pane");
         $("#pane").slideToggle("slow");
     });
-
     $("#fl").click(function() {
         if (last != null && last != $("#pan")) {
             last.slideToggle("slow");
@@ -269,7 +266,6 @@ $(document).ready(function() {
         last = $("#pann");
         $("#pann").slideToggle("slow");
     });
-
     $("#fliii").click(function() {
         if (last != null && last != $("#pannn")) {
             last.slideToggle("slow");
@@ -284,115 +280,89 @@ $(document).ready(function() {
         last = $("#pannnn");
         $("#pannnn").slideToggle("slow");
     });
+    $("#antirag").click(function() {
+        $("#antpdf").slideToggle("slow");
+    });
+    $("#guidelines").click(function() {
+        $("#guidepdf").slideToggle("slow");
+    });
 });
 var lastY;
-/*  $(document).bind('touchmove', function (e){
-       var currentY = e.originalEvent.touches[0].clientY;
-       if(currentY > lastY){
-           console.log('scrolling down');
-           sd();
-       }else if(currentY < lastY){
-           su();
-           console.log('scrolling up');
-       }
-       lastY = currentY;
-  });*/
-
 $(document).on("pagecreate", function(event) {
     $(window).on("orientationchange", function(event) {
         alert("Orientation changed to: " + event.orientation);
     });
 });
 var img = new Image();
-
-// User Variables - customize these to change the image being scrolled, its
-// direction, and the speed.
-
 img.src = 'images/other/download.png';
 var CanvasXSize = 800;
 var CanvasYSize = 200;
-var speed = 30; //lower is faster
+var speed = 30;
 var scale = 1.05;
-var y = -4.5; //vertical offset
-
-// Main program
-
+var y = -4.5;
 var dx = 0.75;
 var imgW;
 var imgH;
 var x = 0;
 var clearX;
 var clearY;
-var ctx;
-
+var ctx, cty;
 img.onload = function() {
     imgW = img.width * scale;
     imgH = img.height * scale;
     if (imgW > CanvasXSize) {
         x = CanvasXSize - imgW;
-    } // image larger than canvas
+    }
     if (imgW > CanvasXSize) {
         clearX = imgW;
-    } // image larger than canvas
-    else {
+    } else {
         clearX = CanvasXSize;
     }
     if (imgH > CanvasYSize) {
         clearY = imgH;
-    } // image larger than canvas
-    else {
+    } else {
         clearY = CanvasYSize;
     }
-    //Get Canvas Element
     ctx = document.getElementById('canvas').getContext('2d');
-    //Set Refresh Rate
+    cty = document.getElementById('canva').getContext('2d');
+
     return setInterval(draw, speed);
 }
-
 function draw() {
-    //Clear Canvas
     ctx.clearRect(0, 0, clearX, clearY);
-    //If image is <= Canvas Size
+    cty.clearRect(0, 0, clearX, clearY);
     if (imgW <= CanvasXSize) {
-        //reset, start from beginning
         if (x > (CanvasXSize)) {
             x = 0;
         }
-        //draw aditional image
         if (x > (CanvasXSize - imgW)) {
             ctx.drawImage(img, x - CanvasXSize + 1, y, imgW, imgH);
+            cty.drawImage(img, x - CanvasXSize + 1, y, imgW, imgH);
         }
-    }
-    //If image is > Canvas Size
-    else {
-        //reset, start from beginning
+    } else {
         if (x > (CanvasXSize)) {
             x = CanvasXSize - imgW;
         }
-        //draw aditional image
         if (x > (CanvasXSize - imgW)) {
             ctx.drawImage(img, x - imgW + 1, y, imgW, imgH);
+            cty.drawImage(img, x - imgW + 1, y, imgW, imgH);
         }
     }
-    //draw image
     ctx.drawImage(img, x, y, imgW, imgH);
-    //amount to move
+    cty.drawImage(img, x, y, imgW, imgH);
     x += dx;
 }
 $(document).keydown(function(e) {
     switch (e.which) {
-        case 37: // left
-
+        case 37:
         case 38:
             uu();
             break;
 
         case 39:
-
         case 40:
             dd();
             break;
-
         default:
             return;
     }
