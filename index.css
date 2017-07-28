@@ -150,7 +150,6 @@ span {
     flex: 2.75;
 }
 #announcement {
-    color: white;
     font-family: sam;
     font-size: 30px;
     text-align: center;
@@ -176,8 +175,18 @@ span {
     .navbtn{
       visibility: hidden;
     }
+
 }
 @media screen and (min-width: 800px) {
+  .events{
+    min-width: 380px;
+    max-width: 380px;
+    height: 150px;
+    color:black
+  }
+  .ohellx{
+    width:75%;
+  }
   .pa:hover > .paa>.hi {
       visibility: visible;
   }
@@ -185,26 +194,26 @@ span {
       visibility: hidden;
   }
     #p0 {
-        background-image: url("images/hall/desktop/hall.png");
+        background-image: url("../images/hall/desktop/hall.png");
     }
     #p1 {
-        background-image: url("images/hall/desktop/hallenterence.jpg");
+        background-image: url("../images/hall/desktop/hallenterence.jpg");
     }
     #p2 {
-        background-image: url("images/hall/desktop/hallenterence.jpg");
+        background-image: url("../images/hall/desktop/canteen.jpg");
     }
 
     #p3 {
-        background-image: url("images/hall/desktop/mess.jpg");
+        background-image: url("../images/hall/desktop/mess.jpg");
     }
     #p4 {
-        background-image: url("images/hall/desktop/halloffice.jpg");
+        background-image: url("../images/hall/desktop/halloffice.jpg");
     }
     #p5 {
-        background-image: url("images/hall/desktop/coridoor.jpg");
+        background-image: url("../images/hall/desktop/coridoor.jpg");
     }
     #p7 {
-        background-image: url("images/hall/desktop/corridorside.jpg");
+        background-image: url("../images/hall/desktop/corridorside.jpg");
     }
     .anthumtop {
         font-size: 50px;
@@ -233,12 +242,22 @@ span {
     position :relative;
     -webkit-animation: mymove 2s infinite;
     animation: mymove 2s infinite;
+    background-color:rgba(100,100,100,0.5);
+    border-radius:100%;
   }
   #az {
       overflow-y: scroll;
   }
 }
 @media screen and (max-width: 800px) {
+  .ohellx{
+    width:85%;
+  }
+  .events{
+    min-width: 75%;
+    max-width: 75%;
+    height: 200px;
+    }
     body{
         font-size: 13px;
     }
@@ -246,25 +265,25 @@ span {
         visibility: inherit;
     }
     #p0 {
-        background-image: url("images/hall/mobile/hall.jpg");
+        background-image: url("../images/hall/mobile/hall.jpg");
     }
     #p1 {
-        background-image: url("images/hall/mobile/canteen.jpg");
+        background-image: url("../images/hall/mobile/canteen.jpg");
     }
     #p2 {
-        background-image: url("images/hall/mobile/canteen.jpg");
+        background-image: url("../images/hall/mobile/doubleroom.jpg");
     }
     #p3 {
-        background-image: url("images/hall/mobile/mess.jpg");
+        background-image: url("../images/hall/mobile/mess.jpg");
     }
     #p4 {
-        background-image: url("images/hall/mobile/halloffice.jpg");
+        background-image: url("../images/hall/mobile/halloffice.jpg");
     }
     #p5 {
-        background-image: url("images/hall/mobile/corridor.jpg");
+        background-image: url("../images/hall/mobile/corridor.jpg");
     }
     #p7 {
-        background-image: url("images/hall/mobile/corridors.jpg");
+        background-image: url("../images/hall/mobile/corridors.jpg");
     }
     #link {
         visibility: hidden;
@@ -402,11 +421,11 @@ a {
 
 a:visited {
     text-decoration: none;
-    color: rgb(200, 200, 200);
 }
 
 .helli {
     width: 90%;
+    min-width: 90%;
     background-color: rgba(255, 255, 255, 0.3);
     margin: auto;
     min-height: 10vh;
@@ -429,12 +448,13 @@ a:visited {
     overflow-y: scroll;
 }
 .ohellx {
-    width: 75%;
+    margin-top: 10px;
     margin: auto;
-    min-height: 10vh;
+    min-height: 20vh;
     max-height: 75vh;
     height: auto;
     overflow-y: scroll;
+    color: black;
 }
 .hellio {
     text-align: center;
@@ -723,6 +743,7 @@ canvas {
   align-items: center;
   font-weight: bolder;
   color:white;
+  border-radius: 30%;
 }
 ::-webkit-scrollbar {
     width: 12px;
@@ -736,4 +757,44 @@ canvas {
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.0);
+}
+.date-box {
+    float: left;
+    background-image: url(../images/other/calender.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 55px;
+    width: 44px;
+    z-index: 10;
+    margin: 10px;
+}
+.date-box .date-format {
+    line-height: 20px;
+    padding: 15px 0 0;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    font-family: arial;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.date-box .month-format {
+    font-size: 10px;
+    line-height: 10px;
+    display: block;
+    text-align: center;
+    font-family: arial;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.events{
+  color: black;
+  margin: 2vh;
+  background-repeat: no-repeat;
+  background-color: rgba(255,243,240,0.3);
+  background-size: 100% 100%;
+  box-shadow: 10px 5px 20px #888888;
+  float: left;
+  text-align: left;
+  padding: 10px;
 }
