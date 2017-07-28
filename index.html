@@ -6,11 +6,14 @@
     <title>Hall 12</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Hall of Residence 12 is the newest among all other hostels at IIT Kanpur. It is the only male Hostel having a lift for the students. It is situated at north-west zone of IIT Kanpur campus. The hostel has six blocks, A, B, C, D, E, ad F and each block is 6 storey building. It has capacity of about 600 students with about 456 rooms. The Hall has single, double and triple occupancy.. The hall mainly consists of first, second, third year B.Tech students." />
+    <meta name="description" content="Hall of Residence 12 is the newest among all other hostels at IIT Kanpur. It is situated at north-west zone of IIT Kanpur campus. The hostel has six blocks, A, B, C, D, E, ad F and each block is 6 storey building. It has capacity of about 600 students with about 456 rooms. The Hall has single, double and triple occupancy.. The hall mainly consists of first, second, third year B.Tech students." />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="HTML,CSS,JavaScript">
     <meta name="author" content="Akash kumar singh">
     <script src="js/lib/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/index.js"></script>
 
 </head>
 
@@ -20,34 +23,29 @@
     </div>
     <style>
     body {
-overflow: hidden;
-}
-#preloader {
-position: fixed;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-background-color: #fff;
-z-index: 99;
-display: flex;
-align-items: center;
-justify-content: center;
-}
-
-#status {
-  height: 350px;
-  width: 350px;
-position: absolute;
-background-image: url(images/other/loading.gif);
-background-repeat: no-repeat;
-}
+      overflow: hidden;
+    }
+    #preloader {
+      position: fixed;
+      background-color: #fff;
+      z-index: 999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    #status {
+      height: 350px;
+      width: 350px;
+      position: absolute;
+      background-image: url(images/other/loading.gif);
+      background-repeat: no-repeat;
+    }
     </style>
     <script>
-    $(window).on('load', function() {
-  $('#status').fadeOut();
-  $('#preloader').delay(350).fadeOut('slow');
-});
+      $(window).on('load', function() {
+        $('#status').fadeOut();
+        $('#preloader').delay(350).fadeOut('slow');
+      });
     </script>
     <header>
         <div class="container">
@@ -70,30 +68,39 @@ background-repeat: no-repeat;
     </header>
     <div id="bo">
         <div id="p0" class="pages">
-            <div class="a" id="azara" style="  position: absolute;  width: 100%;  background-size: 100% 100%;height: 100%;background-color:rgba(255,255,255,0.3);display:flex;flex-direction:column;  align-items: center;justify-content: center;font-family:samaa;color:rgb(50,50,50);">
+            <div id="azara" style="width: 100%;  background-size: 100% 100%;height: 100%;background-color:rgba(255,255,255,0.3);display:flex;flex-direction:column;  align-items: center;justify-content: center;font-family:samaa;color:rgb(50,50,50);">
                 <div style="font-family:sama;">Hall 12</div>
                 <br>
                 <div style="width:70vw">Hall of Residence 12 is the newest among all other hostels at IIT Kanpur. It is the only male Hostel having a lift for the students. It is situated at the north-west zone of IIT Kanpur campus. The hostel has six blocks, A, B, C, D, E, and F and each block is 6 storey building. It has a capacity of about 600 students with about 456 rooms. The Hall has single, double and triple occupancy... The hall mainly consists of first, second, third-year B.Tech students.</div>
             </div>
         </div>
         <div id="p2" class="pages">
-          <div class="ohellx" >
-              <div style="z-index: inherit;" id="announcement" onmouseover="nonnn()" onmouseout="yes()">
+          <div class="ohellx" onmouseover="nonnn()" onmouseout="yes()">
+              <div style="z-index: inherit;" id="announcement" >
                 <div class="anthumtop">Hall office</div>
-                  <div class="anthumtop">Announcement</div>
+                <div style="width:100%;display:flex;flex-wrap: wrap;">
+                  <div style="flex:1;min-width:600px;margin-bottom:50px;display: flex;align-items: center;flex-direction:column;">
+                  <div class="anthumtop">News</div>
                   <br>
-                  <div id="antirag" class="announcement" style="cursor:pointer;">Anti ragging committee</div>
-                  <div id="antpdf" class="anno" >
-                  <object data="pdf/ANTI-RAGGING-COMMITTEE-Google-Docs.pdf" type="application/pdf" style="width:100%;height:800px;">
-   </object></div>
-   <div id="guidelines" class="announcement" style="cursor:pointer;">Guidelines</div>
-   <div id="guidepdf" class="anno">
-   <object data="pdf/GUIDELINES.pdf" type="application/pdf" style="width:100%;height:800px;">
-</object></div>
-</div>
-              </div>
-              <canvas id="canva"></canvas>
-        </div>
+                  <a href="pdf/GUIDELINES.pdf" target="_blank" class="events">
+					         <div class="date-box">
+		                <div class="date-format">21</div>
+						        <div class="month-format">July'17</div>
+					       	</div> <b>Guidelines about</b><br>Mess rebate , Electricity rebate , Guest room booking & General welfare.
+                </a>
+                <a href="pdf/ANTI-RAGGING-COMMITTEE.pdf" target="_blank" class="events">
+                 <div class="date-box">
+                  <div class="date-format">21</div>
+                  <div class="month-format">July'17</div>
+                </div> <b>Antiragging committee</b><br>
+              </a>
+            </div>
+            <div style="flex:1;min-width:600px;">
+            <div class="anthumtop">Minutes of meeting</div>
+
+          </div></div>
+            </div></div>
+            </div>
         <div id="p1" class="pages">
             <div class="helli" onmouseover="nonnn()" onmouseout="yes()">
                 <div class="hellio">wardens</div>
@@ -726,6 +733,7 @@ background-repeat: no-repeat;
                 </a>
                 <br> Akash Kumar Singh
                 <br>Suryansh Agarwal
+                <br>Abhishek arya
                 <br>Shivank Garg
                 <br>Abhinav Arora
                 <br>Vivek Jain</div>
@@ -810,8 +818,7 @@ background-repeat: no-repeat;
     </div>
     <div id="pappu">
       <img onclick="uu()" src="images/other/previous.png"height="50" class="navbtn"></img>
-
-      <a href="https://www.facebook.com/hall12iitkanpur/" target="_blank" style="background:rgba(100,100,100,0.5);"><img src="images/other/fb.png" style="height:3vh;"/></a>
+      <a href="https://www.facebook.com/hall12iitkanpur/" target="_blank" style="background:rgba(100,100,100,0.5);  border-radius: 30%;"><img src="images/other/fb.png" style="height:3vh;"/></a>
       <div class="mail">
         <img src="images/other/email.png" style="height:3vh;"/>hall12@iitk.ac.in
       </div>
@@ -822,7 +829,4 @@ background-repeat: no-repeat;
 
     </div>
 </body>
-<link rel="stylesheet" href="index.css">
-<link rel="stylesheet" href="animate.css">
-<script src="js/index.js"></script>
 </html>
