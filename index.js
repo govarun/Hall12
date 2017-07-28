@@ -1,10 +1,18 @@
-var doing = 0,present = 0,no = 0,previous = 0,pre = 0,pond = 0;
+var doing = 0,
+    present = 0,
+    no = 0,
+    previous = 0,
+    pre = 0,
+    pond = 0;
 document.getElementById('a' + present).style.color = 'rgb(10,10,10)';
+
 $('.menu-toggle').click(function() {
+
     $('.site-nav').toggleClass('site-nav--open');
     $(this).toggleClass('open');
     pond = 0;
 });
+
 $(document).click(function() {
     if (pond == 1) {
         pond == 0;
@@ -12,6 +20,7 @@ $(document).click(function() {
         $(this).toggleClass('open');
     }
 });
+
 function sd() {
     setTimeout(function() {
         if (doing == 0 && no == 0) {
@@ -41,9 +50,11 @@ function sd() {
             present++;
             present = present % 8;
             document.getElementById('a' + present).style.color = 'rgb(10,10,10)';
+
         }
     }, 10);
 }
+
 function dd() {
     setTimeout(function() {
         if (doing == 0) {
@@ -76,14 +87,17 @@ function dd() {
         }
     }, 10);
 }
+
 function nonnn() {
     no = 1;
     console.log('no');
 }
+
 function yes() {
     no = 0;
     console.log('yes');
 }
+
 function go(i) {
     if (doing == 0 && i != present) {
         present = present % 8;
@@ -114,6 +128,7 @@ function go(i) {
         }, 1500);
     }
 }
+
 function su() {
     console.log('su');
     setTimeout(function() {
@@ -146,9 +161,11 @@ function su() {
                 present = 7;
             }
             document.getElementById('a' + present).style.color = 'rgb(10,10,10)';
+
         }
     }, 10);
 }
+
 function uu() {
     setTimeout(function() {
         if (doing == 0 && no == 0) {
@@ -184,6 +201,7 @@ function uu() {
         }
     }, 10);
 }
+
 function club() {
     document.getElementById(previous).style.visibility = 'hidden';
     document.getElementById(previous).style.zIndex = '0';
@@ -191,6 +209,7 @@ function club() {
     document.getElementById(previous).style.visibility = 'visible';
     document.getElementById(previous).style.zIndex = '1';
 }
+
 function cs() {
     document.getElementById('b' + pre).style.visibility = 'hidden';
     document.getElementById('b' + pre).style.zIndex = '0';
@@ -198,10 +217,12 @@ function cs() {
     document.getElementById('b' + pre).style.visibility = 'visible';
     document.getElementById('b' + pre).style.zIndex = '1';
 }
+
 function mess() {
     var n = document.getElementById('abbba').value;
     messing(n);
 }
+
 function messing(n) {
     if (n == 7) {
         var ddd = new Date();
@@ -244,6 +265,7 @@ $(document).ready(function() {
         last = $("#panel");
         $("#panel").slideToggle("slow");
     });
+
     $("#fli").click(function() {
         if (last != null && last != $("#pane")) {
             last.slideToggle("slow");
@@ -251,6 +273,7 @@ $(document).ready(function() {
         last = $("#pane");
         $("#pane").slideToggle("slow");
     });
+
     $("#fl").click(function() {
         if (last != null && last != $("#pan")) {
             last.slideToggle("slow");
@@ -266,6 +289,7 @@ $(document).ready(function() {
         last = $("#pann");
         $("#pann").slideToggle("slow");
     });
+
     $("#fliii").click(function() {
         if (last != null && last != $("#pannn")) {
             last.slideToggle("slow");
@@ -287,6 +311,7 @@ $(document).ready(function() {
         $("#guidepdf").slideToggle("slow");
     });
 });
+
 var lastY;
 $(document).on("pagecreate", function(event) {
     $(window).on("orientationchange", function(event) {
@@ -306,7 +331,8 @@ var imgH;
 var x = 0;
 var clearX;
 var clearY;
-var ctx;
+var ctx, cty;
+
 img.onload = function() {
     imgW = img.width * scale;
     imgH = img.height * scale;
@@ -324,16 +350,21 @@ img.onload = function() {
         clearY = CanvasYSize;
     }
     ctx = document.getElementById('canvas').getContext('2d');
+    cty = document.getElementById('canva').getContext('2d');
+
     return setInterval(draw, speed);
 }
+
 function draw() {
     ctx.clearRect(0, 0, clearX, clearY);
+    cty.clearRect(0, 0, clearX, clearY);
     if (imgW <= CanvasXSize) {
         if (x > (CanvasXSize)) {
             x = 0;
         }
         if (x > (CanvasXSize - imgW)) {
             ctx.drawImage(img, x - CanvasXSize + 1, y, imgW, imgH);
+            cty.drawImage(img, x - CanvasXSize + 1, y, imgW, imgH);
         }
     } else {
         if (x > (CanvasXSize)) {
@@ -341,9 +372,11 @@ function draw() {
         }
         if (x > (CanvasXSize - imgW)) {
             ctx.drawImage(img, x - imgW + 1, y, imgW, imgH);
+            cty.drawImage(img, x - imgW + 1, y, imgW, imgH);
         }
     }
     ctx.drawImage(img, x, y, imgW, imgH);
+    cty.drawImage(img, x, y, imgW, imgH);
     x += dx;
 }
 $(document).keydown(function(e) {
@@ -357,6 +390,7 @@ $(document).keydown(function(e) {
         case 40:
             dd();
             break;
+
         default:
             return;
     }
