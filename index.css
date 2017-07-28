@@ -57,10 +57,6 @@ span {
     font-family: rio;
     src: url('fonts/TrajanPro-Regular.ttf');
 }
-
-
-/* vietnamese */
-
 @font-face {
     font-family: 'Quicksand';
     font-style: normal;
@@ -68,10 +64,6 @@ span {
     src: local('Quicksand Regular'), local('Quicksand-Regular'), url(https://fonts.gstatic.com/s/quicksand/v6/NUrn2XQrRfyGZp5MknntaRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
     unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
 }
-
-
-/* latin-ext */
-
 @font-face {
     font-family: 'Quicksand';
     font-style: normal;
@@ -79,10 +71,6 @@ span {
     src: local('Quicksand Regular'), local('Quicksand-Regular'), url(https://fonts.gstatic.com/s/quicksand/v6/s2PXW4WrV3VLrOUpHiqsfRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
     unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
-
-
-/* latin */
-
 @font-face {
     font-family: 'Quicksand';
     font-style: normal;
@@ -90,10 +78,6 @@ span {
     src: local('Quicksand Regular'), local('Quicksand-Regular'), url(https://fonts.gstatic.com/s/quicksand/v6/sKd0EMYPAh5PYCRKSryvW1tXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
-
-
-/* vietnamese */
-
 @font-face {
     font-family: 'Quicksand';
     font-style: normal;
@@ -101,10 +85,6 @@ span {
     src: local('Quicksand Bold'), local('Quicksand-Bold'), url(https://fonts.gstatic.com/s/quicksand/v6/32nyIRHyCu6iqEka_hbKsv8zf_FOSsgRmwsS7Aa9k2w.woff2) format('woff2');
     unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
 }
-
-
-/* latin-ext */
-
 @font-face {
     font-family: 'Quicksand';
     font-style: normal;
@@ -112,10 +92,6 @@ span {
     src: local('Quicksand Bold'), local('Quicksand-Bold'), url(https://fonts.gstatic.com/s/quicksand/v6/32nyIRHyCu6iqEka_hbKsj0LW-43aMEzIO6XUTLjad8.woff2) format('woff2');
     unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
-
-
-/* latin */
-
 @font-face {
     font-family: 'Quicksand';
     font-style: normal;
@@ -126,6 +102,16 @@ span {
 
 #bo {
     flex: 20;
+}
+
+#p2 {
+    visibility: hidden;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    flex-direction: column;
 }
 
 #p1 {
@@ -163,13 +149,41 @@ span {
     padding: 5vh;
     flex: 2.75;
 }
-
+#announcement {
+    color: white;
+    font-family: sam;
+    font-size: 30px;
+    text-align: center;
+    padding: 5vh;
+    flex: 2.75;
+}
 .anthumtop {
     font-family: rio;
     font-weight: bold;
 }
+@-webkit-keyframes mymove {
+    0%   {top: -2px;}
+    50% {top:2px;}
+    100% {top: -2px;}
+}
+@keyframes mymove {
+    0%   {top: -2px;}
+    50% {top:2px;}
+    100% {top: -2px;}
+}
 
+@media screen and (min-device-width: 800px) {
+    .navbtn{
+      visibility: hidden;
+    }
+}
 @media screen and (min-width: 800px) {
+  .pa:hover > .paa>.hi {
+      visibility: visible;
+  }
+  .hi {
+      visibility: hidden;
+  }
     #p0 {
         background-image: url("images/hall/desktop/hall.png");
     }
@@ -177,15 +191,19 @@ span {
         background-image: url("images/hall/desktop/hallenterence.jpg");
     }
     #p2 {
+        background-image: url("images/hall/desktop/hallenterence.jpg");
+    }
+
+    #p3 {
         background-image: url("images/hall/desktop/mess.jpg");
     }
-    #p3 {
+    #p4 {
         background-image: url("images/hall/desktop/halloffice.jpg");
     }
-    #p4 {
+    #p5 {
         background-image: url("images/hall/desktop/coridoor.jpg");
     }
-    #p6 {
+    #p7 {
         background-image: url("images/hall/desktop/corridorside.jpg");
     }
     .anthumtop {
@@ -195,9 +213,6 @@ span {
         visibility: hidden;
         z-index: -111;
         height: 0px;
-    }
-    #anthum {
-        font-size: 30px;
     }
     #link {
         height: 100%;
@@ -213,12 +228,22 @@ span {
     }
 }
 
+@media screen and (max-device-width: 800px) {
+  .navbtn{
+    position :relative;
+    -webkit-animation: mymove 2s infinite;
+    animation: mymove 2s infinite;
+  }
+  #az {
+      overflow-y: scroll;
+  }
+}
 @media screen and (max-width: 800px) {
     body{
         font-size: 13px;
     }
     .hi {
-        visibility: visible;
+        visibility: inherit;
     }
     #p0 {
         background-image: url("images/hall/mobile/hall.jpg");
@@ -227,15 +252,18 @@ span {
         background-image: url("images/hall/mobile/canteen.jpg");
     }
     #p2 {
-        background-image: url("images/hall/mobile/mess.jpg");
+        background-image: url("images/hall/mobile/canteen.jpg");
     }
     #p3 {
-        background-image: url("images/hall/mobile/halloffice.jpg");
+        background-image: url("images/hall/mobile/mess.jpg");
     }
     #p4 {
+        background-image: url("images/hall/mobile/halloffice.jpg");
+    }
+    #p5 {
         background-image: url("images/hall/mobile/corridor.jpg");
     }
-    #p6 {
+    #p7 {
         background-image: url("images/hall/mobile/corridors.jpg");
     }
     #link {
@@ -244,7 +272,7 @@ span {
         height: 0px;
     }
     #az {
-        height: 100%;
+        height: 90%;
     }
     #anthum {
         font-size: 20px;
@@ -257,7 +285,7 @@ span {
     }
 }
 
-#p2 {
+#p3 {
     visibility: hidden;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -266,15 +294,6 @@ span {
     position: absolute;
     display: flex;
     justify-content: center;
-}
-
-#p3 {
-    visibility: hidden;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
-    position: absolute;
 }
 
 #p4 {
@@ -288,6 +307,15 @@ span {
 
 #p5 {
     visibility: hidden;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#p6 {
+    visibility: hidden;
     background-color: black;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -297,7 +325,7 @@ span {
     display: flex;
 }
 
-#p6 {
+#p7 {
     visibility: hidden;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -351,6 +379,7 @@ a {
     top: 0px;
     width: 100%;
     z-index: 1;
+    overflow-y: scroll;
 }
 
 #links {
@@ -359,9 +388,7 @@ a {
     z-index: 1;
 }
 
-.hi {
-    visibility: hidden;
-}
+
 
 .pa:hover>.paa {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7) 35%, rgba(0, 0, 0, 0.3));
@@ -371,9 +398,7 @@ a {
     box-shadow: 10px 10px 40px rgb(0, 0, 0);
 }
 
-.pa:hover > .paa>.hi {
-    visibility: visible;
-}
+
 
 a:visited {
     text-decoration: none;
@@ -395,8 +420,7 @@ a:visited {
 }
 
 .hellx {
-    width: 90%;
-    background-color: rgba(255, 255, 255, 0.3);
+    width: 75%;
     margin: auto;
     min-height: 10vh;
     max-height: 75vh;
@@ -404,7 +428,14 @@ a:visited {
     height: auto;
     overflow-y: scroll;
 }
-
+.ohellx {
+    width: 75%;
+    margin: auto;
+    min-height: 10vh;
+    max-height: 75vh;
+    height: auto;
+    overflow-y: scroll;
+}
 .hellio {
     text-align: center;
     font-size: 10vh;
@@ -419,7 +450,7 @@ form {
     font-family: rio;
     font-weight: bold;
     text-align: center;
-    background-color: rgba(255, 255, 255, .3);
+    background-color: rgba(155, 135, 125, .3);
     padding: 1vh;
     width: 65%;
     margin-bottom: 3vh;
@@ -439,14 +470,13 @@ form {
     font-weight: bold;
     text-align: center;
     background-color: rgba(10, 10, 10, 0.5);
-    padding: 1vh;
+    padding: 0.75vh;
     color: rgb(200, 200, 200);
     width: 50%;
-    margin-bottom: 1.5vh;
-    font-size: 2vh;
-    height: 2.4vh;
+    font-size: 1.6vh;
+    height: 2.2vh;
 }
-
+.anno,
 #panel,
 #pane,
 #pan,
@@ -493,11 +523,10 @@ input[type=reset] {
 .club {
     position: absolute;
     display: hidden;
-    top: 40%;
     left: 0%;
     right: 0%;
     width: 88%;
-    height: 50%;
+    height: 60%;
     margin-left: 6%;
     background-color: rgba(255, 255, 255, 0.3);
     visibility: hidden;
@@ -508,7 +537,11 @@ input[type=reset] {
 #mess {
     flex: 1;
 }
-
+.announcement{
+  width:100%;
+  background-image: linear-gradient(rgba(50,50,50,0.5),rgba(200,200,200,0.5),rgba(100,100,100,0.5));
+  margin-bottom: 10px;
+}
 #bbbb {
     background-color: rgba(0, 00, 00, 0.6);
     margin: 4vh;
@@ -518,15 +551,10 @@ input[type=reset] {
     padding: 3vh;
     font-size: 2vh;
 }
-
-
-/* colors -> https://coolors.co/e54b4b-ebebd3-464655-e4b363-e8e9eb */
-
 .container {
     width: 95%;
-
+    text-align: center;
     max-width: 1000px;
-    margin: 0 auto;
     min-height: 19px;
     font-family: 'Quicksand', sans-serif;
     flex: 1;
