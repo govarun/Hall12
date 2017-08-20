@@ -1,0 +1,203 @@
+
+@font-face {
+    font-family: sam;
+    src: url('fonts/futura-light-condensed-bt-595e133b1a4ff.ttf');
+}
+
+@font-face {
+    font-family: sama;
+    src: url('fonts/HelveticaRounded-Bold.otf');
+}
+
+@font-face {
+    font-family: samaa;
+    src: url('fonts/futura-light-condensed-bt-595e133b1a4ff.ttf');
+}
+
+@font-face {
+    font-family: myFont;
+    src: url('fonts/Artifika-Regular.ttf');
+}
+
+@font-face {
+    font-family: rom;
+    src: url('fonts/Rom.ttf');
+}
+
+@font-face {
+    font-family: rio;
+    src: url('fonts/TrajanPro-Regular.ttf');
+}
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Quicksand Regular'), local('Quicksand-Regular'), url(https://fonts.gstatic.com/s/quicksand/v6/NUrn2XQrRfyGZp5MknntaRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Quicksand Regular'), local('Quicksand-Regular'), url(https://fonts.gstatic.com/s/quicksand/v6/s2PXW4WrV3VLrOUpHiqsfRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Quicksand Regular'), local('Quicksand-Regular'), url(https://fonts.gstatic.com/s/quicksand/v6/sKd0EMYPAh5PYCRKSryvW1tXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Quicksand Bold'), local('Quicksand-Bold'), url(https://fonts.gstatic.com/s/quicksand/v6/32nyIRHyCu6iqEka_hbKsv8zf_FOSsgRmwsS7Aa9k2w.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Quicksand Bold'), local('Quicksand-Bold'), url(https://fonts.gstatic.com/s/quicksand/v6/32nyIRHyCu6iqEka_hbKsj0LW-43aMEzIO6XUTLjad8.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Quicksand Bold'), local('Quicksand-Bold'), url(https://fonts.gstatic.com/s/quicksand/v6/32nyIRHyCu6iqEka_hbKsugdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+#p0 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    text-align: center;
+    font-family: Quicksand;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (min-width: 800px) {
+    #p0 {
+        background-image: url("images/hall/desktop/hall.png");
+    }
+    .anthumtop {
+        font-size: 50px;
+    }
+    .events{
+      min-width: 250px;
+      max-width: 250px;
+      height: 100px;
+      color:black
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .events{
+      min-width: 200px;
+      max-width: 200px;
+      height: 100px;
+      }
+      #p0 {
+          background-image: url("images/hall/mobile/hall.jpg");
+      }
+      .anthumtop {
+          font-size: 30px;
+      }
+    }
+    html{
+      width: 100%;
+      height: 100%;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: absolute;
+      padding: 0px;
+      margin: 0px;
+    }
+    .anthumtop {
+        font-family: rio;
+        font-weight: bold;
+    }
+.button{
+    font-family:sama;
+    font-size: 2vh;
+    min-width: 5vh;
+    max-width: 27vh;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin-bottom: 20px;;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+a:visited {
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.date-box {
+    float: left;
+    background-image: url(images/other/calender.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 55px;
+    width: 44px;
+    z-index: 10;
+    margin: 10px;
+}
+.date-box .date-format {
+    line-height: 20px;
+    padding: 15px 0 0;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    font-family: arial;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.date-box .month-format {
+    font-size: 10px;
+    line-height: 10px;
+    display: block;
+    text-align: center;
+    font-family: arial;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.events{
+  color: black;
+  margin: 2vh;
+  background-repeat: no-repeat;
+  background-color: rgba(255,243,240,0.3);
+  background-size: 100% 100%;
+  box-shadow: 10px 5px 20px #888888;
+  float: left;
+  text-align: left;
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+#a{
+  background-color: rgba(255,255,255,0.5);
+  width: 100%;
+  height: 100%;
+  top:0px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   flex-direction:column;
+   color:rgb(50,50,50);
+   font-size: 20px;
+}
