@@ -209,19 +209,19 @@ function messing(n) {
     }
     var a;
     if (n == 0) {
-        a = "Masala Dosa with Sambhar,Nariyal Chutney- Aloo Tamater Gravy,  Chana dal , Aloo, Mix Veg & Paneer Paratha with Imli Chutney ,Lassi - Aloo Soyabeen, Mix Dal Finger Chips  Extra: Chicken Biryani    ";
+      a="POHA,JALEBI,CURD-LAUKI,CHANA DAL,FRYMES EXTRA~VEG BIRYANI/EGG BIRIYANI-ALOO SOYABIN,MIX DAL,SEVAI EXTRA ~ BUTTER CHICKEN"
     } else if (n == 1) {
-        a = "Burger/ Pav Bhaji Extra :Cheese-Kadhi Tadka, Aloo Achari Roohafza Extra :Afgani Paneer - Veg Kofta, Arhar Dal";
+      a = "IDLI~VADA/UTTAPAM ,SAMBHAR COCONUT CHUTNEY-ARHAR DAL,KOFTA,PAPAD EXTRA~EGG CURRY-ALOO TAMATAR,LEMON RICE,POORI(PALAK/PLAIN), ROOHAFZA EXTRA – CHICKEN CURRY";
     } else if (n == 2) {
-        a = "Paratha: Aloo, Onion & Mix Veg with Imli Chutni -Mix Veg, Arhar Palak dal ,Chhach -Mater Paneer, Masoor Dal, Plain Paratha ";
+      a = "CHEELA/VEG SANDWICH-MIX VEG, ARHAR DAL,CHACH EXTRA ~ SWEET-CHOLE BATURE, RICE,CUSTARD,";
     } else if (n == 3) {
-        a = "Matar Kachauri With Aloo Sabji  -Kaddu, Razma, Boondi Raita, Nimboo Pani Extra:Egg Curry-  Bhindi Fry,Arher Dal Extra: Chicken Butter Masala/ Chicken Roasted";
+      a = "POORI,CHANA,HALWA-KADOO, RAJMA, BOONDI RAITA EXTRA~BADAMI PANEER SORBA-PANEER(BUTTER MASALA/AFGANI/JALFREEZE)/LACCHA PARATHA,JEERA RICE";
     } else if (n == 4) {
-        a = "Idli / Wada (2pcs.),  Sambhar / Uttapam With Nariyal Chutney.-Aloo Baigan Dry/Aloo Cabbage Mater, Moong Dal, Lassi Extra : Paneer Butter Masala- Chhole, Bhatoora/Kulche Plain Roti, Custurd / Sewai";
+      a = "CUTLET,CHUTNEY-KADHI TADKA, ALOO SOYABEAN, FINGER CHIPS EXTRA~ AFGANI PANEER-FRIED RICE/NOODLES,MANCHURIAN,MASUR DAL EXTRA~ CHICKEN BUTTER MASALA/CHICKEN ROASTED";
     } else if (n == 5) {
-        a = "Veg Cutlet , Green  Chutney- Lauki Masala, Arhar Dal , Chhach Extra: Paneer Jhal Freji- Aloo Mater Tamatar Gravy, Plain Puri, Palak Puri, Lemon Rice, Lal Masoor Dal, Kheer";
+      a = "VADAPAV/PAV BHAJI-PARATHA~PANEER/ALOO/MIX, MIX CHUTNEY,CHHOLE EXTRA~ DAHI VADA-PALAK DAL, BHINDI FRY,KHEER EXTRA~CHICKEN BIRYANI ";
     } else if (n == 6) {
-        a = "Jalebi With Curd , Poha Extra : Namkeen-Aloo Parwal Dry, Dal Makhani  Aam Pana Extra :Veg Biryani-Paneer Makhana, Arhar dal, Nan Roti,Tandoori Roti Jeera Rice,Garlic Naan Sweet: Gulab Jamun,";
+      a = "DOSA,SAMBHAR, COCONUT CHUTNEY-DAL MAKHANI,ALOO PARWAL, NIMBU PANI EXTRA~ JAL FREEZI PANEER-MOONG DAL, PANEER ,NAN/TANDOORI  ROTI, GULAB JAMUN";
     }
     var bbbb = a.split('-');
     document.getElementById('bbbb').innerHTML = "<div style='font-family:rio;font-size:2vh; background-color:rgba(0,0,0,0.3);padding:1vh;'>Mess menu</div>Breakfast : " + bbbb[0] + "<br><br><hr>Lunch : " + bbbb[1] + "<br><br><hr>Dinner:" + bbbb[2];
@@ -306,7 +306,7 @@ var imgH;
 var x = 0;
 var clearX;
 var clearY;
-var ctx, cty;
+var ctx;
 img.onload = function() {
     imgW = img.width * scale;
     imgH = img.height * scale;
@@ -324,20 +324,16 @@ img.onload = function() {
         clearY = CanvasYSize;
     }
     ctx = document.getElementById('canvas').getContext('2d');
-    cty = document.getElementById('canva').getContext('2d');
-
     return setInterval(draw, speed);
 }
 function draw() {
     ctx.clearRect(0, 0, clearX, clearY);
-    cty.clearRect(0, 0, clearX, clearY);
     if (imgW <= CanvasXSize) {
         if (x > (CanvasXSize)) {
             x = 0;
         }
         if (x > (CanvasXSize - imgW)) {
             ctx.drawImage(img, x - CanvasXSize + 1, y, imgW, imgH);
-            cty.drawImage(img, x - CanvasXSize + 1, y, imgW, imgH);
         }
     } else {
         if (x > (CanvasXSize)) {
@@ -345,11 +341,9 @@ function draw() {
         }
         if (x > (CanvasXSize - imgW)) {
             ctx.drawImage(img, x - imgW + 1, y, imgW, imgH);
-            cty.drawImage(img, x - imgW + 1, y, imgW, imgH);
         }
     }
     ctx.drawImage(img, x, y, imgW, imgH);
-    cty.drawImage(img, x, y, imgW, imgH);
     x += dx;
 }
 $(document).keydown(function(e) {
