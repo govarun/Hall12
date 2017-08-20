@@ -112,6 +112,8 @@ span {
     height: 100%;
     position: absolute;
     flex-direction: column;
+    align-items: center;
+    display: flex;
 }
 
 #p1 {
@@ -136,8 +138,7 @@ span {
     display: flex;
     z-index: 2;
     text-align: center;
-    font-family: opensans;
-    align-items: center;
+    font-family: 'Open Sans', sans-serif;    align-items: center;
     justify-content: center;
 }
 
@@ -154,7 +155,6 @@ span {
     font-size: 30px;
     text-align: center;
     padding: 5vh;
-    flex: 2.75;
 }
 .anthumtop {
     font-family: rio;
@@ -179,9 +179,9 @@ span {
 }
 @media screen and (min-width: 800px) {
   .events{
-    min-width: 380px;
-    max-width: 380px;
-    height: 150px;
+    min-width: 200px;
+    max-width: 200px;
+    height: 100px;
     color:black
   }
   .ohellx{
@@ -194,26 +194,26 @@ span {
       visibility: hidden;
   }
     #p0 {
-        background-image: url("../images/hall/desktop/hall.png");
+        background-image: url("images/hall/desktop/hall.png");
     }
     #p1 {
-        background-image: url("../images/hall/desktop/hallenterence.jpg");
+        background-image: url("images/hall/desktop/hallenterence.jpg");
     }
     #p2 {
-        background-image: url("../images/hall/desktop/canteen.jpg");
+        background-image: url("images/hall/desktop/top.jpg");
     }
 
     #p3 {
-        background-image: url("../images/hall/desktop/mess.jpg");
+        background-image: url("images/hall/desktop/mess.jpg");
     }
     #p4 {
-        background-image: url("../images/hall/desktop/halloffice.jpg");
+        background-image: url("images/hall/desktop/halloffice.jpg");
     }
     #p5 {
-        background-image: url("../images/hall/desktop/coridoor.jpg");
+        background-image: url("images/hall/desktop/coridoor.jpg");
     }
     #p7 {
-        background-image: url("../images/hall/desktop/corridorside.jpg");
+        background-image: url("images/hall/desktop/corridorside.jpg");
     }
     .anthumtop {
         font-size: 50px;
@@ -248,11 +248,12 @@ span {
   #az {
       overflow-y: scroll;
   }
+  .ohellx{
+    width:100%;
+  }
 }
 @media screen and (max-width: 800px) {
-  .ohellx{
-    width:85%;
-  }
+
   .events{
     min-width: 75%;
     max-width: 75%;
@@ -265,25 +266,25 @@ span {
         visibility: inherit;
     }
     #p0 {
-        background-image: url("../images/hall/mobile/hall.jpg");
+        background-image: url("images/hall/mobile/hall.jpg");
     }
     #p1 {
-        background-image: url("../images/hall/mobile/canteen.jpg");
+        background-image: url("images/hall/mobile/canteen.jpg");
     }
     #p2 {
-        background-image: url("../images/hall/mobile/doubleroom.jpg");
+        background-image: url("images/hall/mobile/top.jpeg");
     }
     #p3 {
-        background-image: url("../images/hall/mobile/mess.jpg");
+        background-image: url("images/hall/mobile/mess.jpg");
     }
     #p4 {
-        background-image: url("../images/hall/mobile/halloffice.jpg");
+        background-image: url("images/hall/mobile/halloffice.jpg");
     }
     #p5 {
-        background-image: url("../images/hall/mobile/corridor.jpg");
+        background-image: url("images/hall/mobile/corridor.jpg");
     }
     #p7 {
-        background-image: url("../images/hall/mobile/corridors.jpg");
+        background-image: url("images/hall/mobile/corridors.jpg");
     }
     #link {
         visibility: hidden;
@@ -423,6 +424,18 @@ a:visited {
     text-decoration: none;
 }
 
+#helli {
+    background-color: rgba(255, 255, 255, 0.3);
+    min-height: 10vh;
+    max-height: 75vh;
+    height: auto;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
 .helli {
     width: 90%;
     min-width: 90%;
@@ -437,7 +450,6 @@ a:visited {
     align-items: center;
     justify-content: center;
 }
-
 .hellx {
     width: 75%;
     margin: auto;
@@ -446,10 +458,11 @@ a:visited {
     flex: 2.75;
     height: auto;
     overflow-y: scroll;
+    max-width: 75%;
+    min-width: 75%;
 }
 .ohellx {
     margin-top: 10px;
-    margin: auto;
     min-height: 20vh;
     max-height: 75vh;
     height: auto;
@@ -485,7 +498,7 @@ form {
 .linked,
 #fliiii {
     margin: auto;
-    margin-top: 1vh;
+    margin-top: 1.5vh;
     font-family: Quicksand;
     font-weight: bold;
     text-align: center;
@@ -760,13 +773,14 @@ canvas {
 }
 .date-box {
     float: left;
-    background-image: url(../images/other/calender.png);
+    background-image: url(images/other/calender.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 55px;
     width: 44px;
     z-index: 10;
     margin: 10px;
+    float: left;
 }
 .date-box .date-format {
     line-height: 20px;
@@ -794,7 +808,11 @@ canvas {
   background-color: rgba(255,243,240,0.3);
   background-size: 100% 100%;
   box-shadow: 10px 5px 20px #888888;
-  float: left;
-  text-align: left;
+  font-family: 'Roboto', sans-serif;
   padding: 10px;
+  font-size: 15px;
+  font-weight: 900;
+  text-align: center;
+  display: flex;
+  align-items: center;
 }
