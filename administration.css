@@ -1,32 +1,22 @@
-
-@font-face {
-    font-family: sam;
-    src: url('fonts/futura-light-condensed-bt-595e133b1a4ff.ttf');
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
 }
-
-@font-face {
-    font-family: sama;
-    src: url('fonts/HelveticaRounded-Bold.otf');
-}
-
-@font-face {
-    font-family: samaa;
-    src: url('fonts/futura-light-condensed-bt-595e133b1a4ff.ttf');
-}
-
-@font-face {
-    font-family: myFont;
-    src: url('fonts/Artifika-Regular.ttf');
-}
-
-@font-face {
-    font-family: rom;
-    src: url('fonts/Rom.ttf');
-}
-
-@font-face {
-    font-family: rio;
-    src: url('fonts/TrajanPro-Regular.ttf');
+html{
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: absolute;
+  padding: 0px;
+  margin: 0px;
 }
 @font-face {
     font-family: 'Quicksand';
@@ -77,12 +67,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    display: flex;
-    z-index: 2;
-    text-align: center;
     font-family: Quicksand;
-    align-items: center;
-    justify-content: center;
 }
 @media screen and (min-width: 800px) {
     #p0 {
@@ -111,15 +96,6 @@
       .anthumtop {
           font-size: 30px;
       }
-    }
-    html{
-      width: 100%;
-      height: 100%;
-      overflow-x: hidden;
-      overflow-y: hidden;
-      position: absolute;
-      padding: 0px;
-      margin: 0px;
     }
     .anthumtop {
         font-family: rio;
@@ -192,12 +168,11 @@ a{
   background-color: rgba(255,255,255,0.5);
   width: 100%;
   height: 100%;
-  top:0px;
-  left: 0px;
   display: flex;
   align-items: center;
   justify-content: center;
-   flex-direction:column;
    color:rgb(50,50,50);
    font-size: 20px;
+   flex-wrap: wrap;
+   overflow-y: scroll;
 }

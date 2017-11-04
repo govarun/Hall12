@@ -1,16 +1,19 @@
-var doing = 0,present = 0,no = 0,previous = 0,pre = 0,pond = 0;
+var doing = 0,present = 0,no = 0,previous = 0,pre = 0,pond = 0,none=0;
 document.getElementById('a' + present).style.color = 'rgb(10,10,10)';
 $('.menu-toggle').click(function() {
     $('.site-nav').toggleClass('site-nav--open');
     $(this).toggleClass('open');
-    pond = 0;
+    pond = !pond;
+    none=1;
 });
 $(document).click(function() {
-    if (pond == 1) {
-        pond == 0;
+
+    if (pond == 1&&!none) {
+        pond = 0;
         $('.site-nav').toggleClass('site-nav--open');
-        $(this).toggleClass('open');
+        $('.menu-toggle').toggleClass('open');
     }
+    none=0;
 });
 function sd() {
     setTimeout(function() {
@@ -209,21 +212,21 @@ function messing(n) {
     }
     var a;
     if (n == 0) {
-      a="POHA,JALEBI,CURD-LAUKI,CHANA DAL,FRYMES EXTRA~VEG BIRYANI/EGG BIRIYANI-ALOO SOYABIN,MIX DAL,SEVAI EXTRA ~ BUTTER CHICKEN"
+      a="POHA,JALEBI,CURD#ALOO BANDHA MUTTER,MASOOR DAL EXTRA-VEG BIRYANI/EGG BIRIYANI#ALOO BANDHA MUTTER,MASOOR DAL EXTRA-VEG BIRYANI/EGG BIRIYANI";
     } else if (n == 1) {
-      a = "IDLI~VADA/UTTAPAM ,SAMBHAR COCONUT CHUTNEY-ARHAR DAL,KOFTA,PAPAD EXTRA~EGG CURRY-ALOO TAMATAR,LEMON RICE,POORI(PALAK/PLAIN), ROOHAFZA EXTRA – CHICKEN CURRY";
+      a = "IDLI/VADA ,SAMBHAR COCONUT CHUTNEY#ALOO BANDHA MUTTER,MASOOR DAL EXTRA-VEG BIRYANI/EGG BIRIYANI#ALOO TAMATAR,LEMON RICE,POORI(PALAK/PLAIN), , ROOHAFZA EXTRA – CHICKEN CURRY,SWEET- RASMALAI";
     } else if (n == 2) {
-      a = "CHEELA/VEG SANDWICH-MIX VEG, ARHAR DAL,CHACH EXTRA ~ SWEET-CHOLE BATURE, RICE,CUSTARD,";
+      a = "VEG SANDWICH#MIX VEG, ARHAR DAL,CHACH  EXTRA- DAHIWADA,MUTTON# CHOLE BHATURE/KULCHA, RICE,CUSTARD";
     } else if (n == 3) {
-      a = "POORI,CHANA,HALWA-KADOO, RAJMA, BOONDI RAITA EXTRA~BADAMI PANEER SORBA-PANEER(BUTTER MASALA/AFGANI/JALFREEZE)/LACCHA PARATHA,JEERA RICE";
+      a = "POORI,CHANA/POORI SABJI,HALWA#ALOO GOBI, RAJMA, BOONDI RAITA EXTRA-PANEER TIKKA#PANEER(BUTTER MASALA),JEERA RICE,MOONG DAL EXTRA -RASGOLA ";
     } else if (n == 4) {
-      a = "CUTLET,CHUTNEY-KADHI TADKA, ALOO SOYABEAN, FINGER CHIPS EXTRA~ AFGANI PANEER-FRIED RICE/NOODLES,MANCHURIAN,MASUR DAL EXTRA~ CHICKEN BUTTER MASALA/CHICKEN ROASTED";
+      a = "UTTAPAM WITH SAMBHAR AND CHUTNEY#ALOO JEERA,TEHRI, ARHAR DAL, PAPAD EXTRA- METHI MALAI PANEER,MILK CAKE#FRIED RICE/NOODLES,MANCHURIAN,MASOOR DAL EXTRA- CHICKEN BUTTER MASALA/CHICKEN ROASTED";
     } else if (n == 5) {
-      a = "VADAPAV/PAV BHAJI-PARATHA~PANEER/ALOO/MIX, MIX CHUTNEY,CHHOLE EXTRA~ DAHI VADA-PALAK DAL, BHINDI FRY,KHEER EXTRA~CHICKEN BIRYANI ";
+      a = "VADAPAV/PAV BHAJI#PARATHA-PANEER/ALOO/MIX, MIX CHUTNEY,CHHOLE EXTRA- SWEET-CHHENA,TIKIA/CHHENA CHAMCHAM#PALAK DAL, ALOO GOBHI MUTTOR GRAVY EXTRA-CHICKEN BIRYANI ,IMARTY RABIDI";
     } else if (n == 6) {
-      a = "DOSA,SAMBHAR, COCONUT CHUTNEY-DAL MAKHANI,ALOO PARWAL, NIMBU PANI EXTRA~ JAL FREEZI PANEER-MOONG DAL, PANEER ,NAN/TANDOORI  ROTI, GULAB JAMUN";
+      a = "DOSA,SAMBHAR, COCONUT CHUTNEY# DAL MAKHANI,ALOO PALAK/ALOO CAPSICUM EXTRA- AFGANI PANEER,FISH TIKKA/FISH FRY.#ALOO SOYABIN,MIX DAL,SEVAI/KHEER EXTRA – BUTTER CHIKEN EXTRA-BUTTER CHAMCHAM";
     }
-    var bbbb = a.split('-');
+    var bbbb = a.split('#');
     document.getElementById('bbbb').innerHTML = "<div style='font-family:rio;font-size:2vh; background-color:rgba(0,0,0,0.3);padding:1vh;'>Mess menu</div>Breakfast : " + bbbb[0] + "<br><br><hr>Lunch : " + bbbb[1] + "<br><br><hr>Dinner:" + bbbb[2];
 }
 window.addEventListener('wheel', function(e) {

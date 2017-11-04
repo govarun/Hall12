@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="images/other/hall12.png" type="image/x-icon" />
+    <title>Guest room</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Hall of Residence 12 guest room." />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="Akash kumar singh">
+    <script src="js/lib/jquery-1.11.1.min.js"></script>
+
+</head>
+<body>
+  <div id="p0">
+    <div id="a">
+      <div style="font-family:sama;font-size:30px;color:rgba(0,0,0,0.6);margin-bottom:30px;">Guest room<br></div>
+      <br>
+      <div style="width:70vw;display:flex;align-items: center;flex-direction:column;overflow-y:scroll;max-height:70vh;">
+        <b>4 Double bed guest rooms</b><br>
+        <table >
+          <tr>
+            <th></th>
+            <th></th>
+          </tr>
+          <tr>
+            <td>Charges(per room per day):</td>
+            <td> ₹250/-</td>
+          </tr>
+          <tr>
+            <td>Extra Inventory:</td>
+            <td>No extra inventory will be supplied.</td>
+          </tr>
+        </table><br><br>
+        <b style="margin-top:30px;font-size:25px;">Procedure</b><br>
+        Request for the guest room using the form given below. After filling the form you will receive an email which is a confirmation email that request has been recorded. If the room will be available you will receive the confirmation email regarding the availability of the room. After that, you have to do the payment using the link provided below. You have to submit the receipt(in printed form) in the hall office.
+        <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSdWGSO2rWn3kNaBf6mmXOogA6ApwOks8jw1WbZgfT6rjNlEKw/viewform">Guest room booking form</a>
+        <a class="button" href="https://www.onlinesbi.com/prelogin/icollecthome.htm">Payment</a>
+        Steps to be followed for payment- in SBI I-collect select hall 12 and then write the total amount to be paid in other dues section and then write 'Guest Room Booking' in the remarks section.
+        </div>
+    </div>
+  </div>
+</body>
+<link rel="stylesheet" href="animate.css">
+<link rel="stylesheet" href="guest.css">
+</html>
