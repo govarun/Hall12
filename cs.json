@@ -1,0 +1,147 @@
+{
+   "team":[
+      {
+         "name":"core-team",
+         "members":[
+            {
+               "type":"Academics Team",
+               "name":"Abhishek Kumar",
+               "mobo":"9454025308",
+               "email":"abhikr@iitk.ac.in",
+               "url":"https://www.facebook.com/profile.php?id=100010147443976",
+               "img":"http://www.iitk.ac.in/counsel/images/team/acads/abhikr.jpg"
+            },
+            {
+               "type":"Acadmic Team",
+               "name":"Arjun Gupta",
+               "mobo":"9140880210",
+               "email":"arjung@iitk.ac.in",
+               "url":"https://www.facebook.com/arjungupta3276",
+               "img":"http://www.iitk.ac.in/counsel/images/team/acads/arjung.jpg"
+            },
+            {
+               "type":"Operations Team",
+               "name":"Akshay Thengane",
+               "mobo":"7054117957",
+               "email":"akshayt@iitk.ac.in",
+               "url":"https://www.facebook.com/m.abbas88",
+               "img":"http://www.iitk.ac.in/counsel/images/team/ops/akshayt.jpg"
+            },
+            {
+               "type":"Operations Team",
+               "name":"Mohd Abbas Zaidi",
+               "mobo":"8948267081",
+               "email":"mzaidi@iitk.ac.in",
+               "url":"https://www.facebook.com/m.abbas88",
+               "img":"http://www.iitk.ac.in/counsel/images/team/ops/mzaidi.jpg"
+            }
+         ]
+      },
+      {
+         "name":"Students Guide",
+         "members":[
+            " Abhinav Arora",
+            " Abhinav Tiwari",
+            " Ahsan Barkati",
+            " Akhil Jha",
+            " Anay Mehrotra",
+            " Aryaman Jha",
+            " Aryan Singh",
+            " Ashish Kumar",
+            " Augustya Sudarshan",
+            " Avijit Kalra",
+            " Devanshu Somani",
+            " Dhruv Mittal",
+            " Divyankar Pratyush",
+            " Gaurav Rawat",
+            " Hardik Harsh",
+            " Himanshu Arora",
+            " Kushagra Ahuja",
+            " Kshitiz Shukla",
+            " Mohammad Atif",
+            " Mohit Kumar Singh",
+            " Naman Verma",
+            " Mitul Patel",
+            " Promit Chakrobarty",
+            " Sagar Chaudhary",
+            " Shashikant",
+            " Shivam Barodiya",
+            " Shubham Pandey",
+            " Siddhart Chinmay",
+            " Smit Choudhary",
+            " Sirjan Jain",
+            " Suraj Hanchinal",
+            " Suyash Agrawal",
+            " Tanay Batra",
+            " Vaibhav Pratap Singh",
+            " Vardhan Gupta"
+         ]
+      },
+      {
+         "name":"Acadmic Mentors",
+         "members":[
+            {
+               "sub":"MTH101/102",
+               "members":[
+                  " Ankush Tiwari",
+                  " Kamresh Agarwal",
+                  " Karan Jha",
+                  " Mayank Shrivastava",
+                  " Siddhant Kar",
+                  " Vishal Rathore"
+               ]
+            },
+            {
+               "sub":"ESC101",
+               "members":[
+                  " Ahsan Barkati",
+                  " Aditya Garg",
+                  " Akhil Jha",
+                  " Ayush Gupta",
+                  " Jenil Mewada",
+                  " Promit Chakroborty",
+                  " Vishal Singh"
+               ]
+            },
+            {
+               "sub":"PHY102",
+               "members":[
+                  " Adarsh Kumar",
+                  " Anurag Pandey",
+                  " Nachiket Karve",
+                  " Samridh Joshi"
+               ]
+            },
+            {
+               "sub":"PHY103",
+               "members":[
+                  " Anay Mehrotra",
+                  " Aritra Das",
+                  " Ayush Basu",
+                  " Kishan Sankharva"
+               ]
+            },
+            {
+               "sub":"CHM102",
+               "members":[
+                  " Avijit Kalra",
+                  " Sunil Prajapati"
+               ]
+            },
+            {
+               "sub":"TA101",
+               "members":[
+                  " Niket Agarwal",
+                  " Shubham Singh"
+               ]
+            },
+            {
+               "sub":"LIF101",
+               "members":[
+                  "Sagar Chaudhary"
+               ]
+            }
+         ]
+      }
+   ]
+}
