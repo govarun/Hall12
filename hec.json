@@ -2,19 +2,19 @@
   "office":[
     {
       "name":"Sunil Kumar Pathak",
-      "post":"OFFICE INCHARGE",
+      "post":"Office Incharge",
       "mobo":"9125323884",
       "img":"images/office/o1.jpeg"
     },
     {
       "name":"Dinesh Chandra Pal",
-      "post":"assistant2",
+      "post":"Assistant",
       "mobo":"7309200637",
       "img":"images/office/o2.jpg"
     },
     {
       "name":"Dinesh Gaur",
-      "post":"assistant1",
+      "post":"Assistant",
       "mobo":"8960623343",
       "img":"images/office/o3.jpg"
     }
@@ -22,7 +22,7 @@
   "hec":[
     {
       "name":"Abhishek Singh",
-      "post":"president",
+      "post":"President",
       "mobo":"7318019917",
       "mail":"abhisgh@iitk.ac.in",
       "img":"images/hec/abhishek.jpg",
@@ -30,7 +30,7 @@
     },
     {
       "name":"Nilay Tiwari",
-      "post":"Mess and canteen",
+      "post":"Mess and Canteen Secretary",
       "mobo":"9411844526",
       "mail":"nilayt@iitk.ac.in",
       "img":"images/hec/nilay.jpg",
@@ -38,7 +38,7 @@
     },
     {
       "name":"Adhip Garg",
-      "post":"Mess ",
+      "post":"Mess and Canteen Secretary",
       "mobo":"7318018998,9891669888",
       "mail":"adhipg@iitk.ac.in",
       "img":"images/hec/adhip.jpg",
@@ -46,7 +46,7 @@
     },
     {
       "name":"Gajendra Meena",
-      "post":"Accounts",
+      "post":"Accounts Secretary",
       "mobo":"7318018981",
       "mail":"gajenkm@iitk.ac.in",
       "img":"images/hec/gajendra.jpg",
@@ -54,7 +54,7 @@
     },
     {
       "name":"Siddhant Srivastava",
-      "post":"Maintainence",
+      "post":"Maintainence Secretary",
       "mobo":"7376235795",
       "mail":"ssriva@iitk.ac.in",
       "img":"images/hec/siddhartha.jpg",
@@ -62,7 +62,7 @@
     },
     {
       "name":"Chitral Gupta",
-      "post":"cultural",
+      "post":"Cultural Secretary",
       "mobo":"9413678035",
       "mail":"chitral@iitk.ac.in",
       "img":"images/hec/chitral.jpg",
@@ -70,7 +70,7 @@
     },
     {
       "name":"Suryansh Agarwal",
-      "post":"SNT",
+      "post":"Science and Technology Secretary",
       "mobo":"9718643337",
       "mail":"asurya@iitk.ac.in",
       "img":"images/hec/suryansh.jpg",
@@ -78,7 +78,7 @@
     },
     {
       "name":"Kalpraj Chaudhari",
-      "post":"RR-CC",
+      "post":"Reading Room and Computer Centre Secretary",
       "mobo":"7020721619",
       "mail":"kalpraj@iitk.ac.in",
       "img":"images/hec/kalpraj.jpg",
@@ -86,7 +86,7 @@
     },
     {
       "name":"Akash Kumar Singh",
-      "post":"Web master",
+      "post":"Web Master",
       "mobo":"9169139387",
       "mail":"akashks@iitk.ac.in",
       "img":"images/hec/akash.jpg",
@@ -94,7 +94,7 @@
     },
     {
       "name":"Md Sharique",
-      "post":"FMC",
+      "post":"FMC Secretary",
       "mobo":"7668116444",
       "mail":"shariqd@iitk.ac.in",
       "img":"images/hec/sharique.jpg",
@@ -104,7 +104,7 @@
   "warden":[
     {
       "name":"Anshu Gaur",
-      "post":"Warden incharge",
+      "post":"Warden Incharge",
       "url":"http://home.iitk.ac.in/~agaur/",
       "mobo":"+91 512 2597600",
       "mail":"agaur@iitk.ac.in",
@@ -112,7 +112,7 @@
     },
     {
       "name":"Ark Verma",
-      "post":"Mess warden",
+      "post":"Mess Warden",
       "url":"http://iitk.ac.in/new/ark-verma",
       "mobo":"0512-259-6847",
       "mail":"arkverma@iitk.ac.in",
