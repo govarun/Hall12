@@ -177,6 +177,15 @@ span {
     }
 
 }
+
+@media screen and (max-width: 800px) {
+    #counter{
+      z-index: -100;
+      display: none;
+      visibility: hidden;
+    }
+
+}
 @media screen and (min-width: 800px) {
   .events{
     min-width: 300px;

@@ -906,7 +906,22 @@
         <img src="images/other/phone.png" style="height:3vh;" />05122595737
       </div>
       <img onclick="dd()" src="images/other/next.png" height="50" class="navbtn"></img>
-
+      <div class="mail" id="counter">
+          <?php
+          $handle = fopen("counter.txt", "r");
+          if(!$handle){
+              echo "could not open the file" ;
+          }
+          else {
+              $counter = (int ) fread($handle,20);
+              fclose ($handle); $counter++;
+              echo" <strong> you are visitor no ". $counter . " </strong> " ;
+              $handle = fopen("counter.txt", "w" );
+              fwrite($handle,$counter) ;
+              fclose ($handle) ;
+          }
+         ?>
+    </div>
     </div>
 </body>
 <link rel="stylesheet" href="css/animate.css">

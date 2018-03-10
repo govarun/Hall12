@@ -16,7 +16,8 @@
                  'Suryansh'=>'eeb6024bb515793d5593b281b8fc2e72fdbbcd09',
                  'Kalpraj'=>'bc67a895642753500295172d7a694c4bda984464',
                  'Akash'=>'0dfbc5c315fc10e981cb1629cda5e7f4c1edcf91',
-                 'Sharique'=>'418fd5acf538e0668d4db90c7e27d8b837d661fb');
+                 'Sharique'=>'418fd5acf538e0668d4db90c7e27d8b837d661fb',
+                'Naishadh'=>'bdc158e441e4545b6be791c88f8c0f2419ae79e3');
 
     if ($passwords[$_SESSION['user']]==sha1($_SESSION['password'])) {
       ?>
