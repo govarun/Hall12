@@ -1,5 +1,4 @@
 let db,ref;
-console.log('hia');
 
 function setup() {
   noCanvas();
@@ -17,20 +16,12 @@ function setup() {
   ref.on('value',gotd,err);
 }
 function gotd(data) {
-  // let removable=selectAll('.news1');
-  // removable.foreach(function () {
-  //   this.remove();
-  // });
   let dt = data.val();
   keys = Object.keys(dt);
   for (let i = keys.length-1; i >=0; i--) {
-    a=createDiv('<div style="overflow-y:scroll;height:100%;"><div><h3>'+dt[keys[i]].data.title+'</h3>'+dt[keys[i]].data.user+'<h5></div>'+'<h4>'+dt[keys[i]].data.text+'</h4><h5></div>');
+    a=createDiv('<div style="overflow-y:scroll;height:100%;"><div><h3>'+dt[keys[i]].title+'</h3>'+dt[keys[i]].user+'<h5></div>'+'<h4>'+dt[keys[i]].text+'</h4><h5></div>');
     a.parent('not-center');
     a.class('events');
-    // a.class('news12');
-    a.style
   }
 }
-function err(data){
-
-}
+function err(data){}

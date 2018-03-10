@@ -1,6 +1,10 @@
-
-
-var doing = 0,present = 0,no = 0,previous = 0,pre = 0,pond = 0,none=0;
+let doing = 0,
+    present = 0,
+    no = 0,
+    previous = 0,
+    pre = 0,
+    pond = 0,
+    none = 0;
 let modal = document.getElementById('myModal');
 document.getElementById('a' + present).style.color = 'rgb(10,10,10)';
 $('.menu-toggle').click(function() {
@@ -8,19 +12,20 @@ $('.menu-toggle').click(function() {
     $('.site-nav').toggleClass('site-nav--open');
     $(this).toggleClass('open');
     pond = !pond;
-    none=1;
+    none = 1;
 });
 $(document).click(function() {
     console.log("hall_day");
     modal.style.display = "none";
 
-    if (pond == 1&&!none) {
+    if (pond == 1 && !none) {
         pond = 0;
         $('.site-nav').toggleClass('site-nav--open');
         $('.menu-toggle').toggleClass('open');
     }
-    none=0;
+    none = 0;
 });
+
 function sd() {
     setTimeout(function() {
         if (doing == 0 && no == 0) {
@@ -35,8 +40,8 @@ function sd() {
                 document.getElementById('b' + pre).style.zIndex = '0';
             }
             document.getElementById('a' + present).style.color = '';
-            var f = document.getElementById('p' + present);
-            var d = document.getElementById('p' + (present + 1) % 8);
+            let f = document.getElementById('p' + present);
+            let d = document.getElementById('p' + (present + 1) % 8);
             d.style.zIndex = '0';
             d.style.visibility = 'visible';
             f.className += " animated slideOutUp";
@@ -53,6 +58,7 @@ function sd() {
         }
     }, 10);
 }
+
 function dd() {
     setTimeout(function() {
         if (doing == 0) {
@@ -67,8 +73,8 @@ function dd() {
                 document.getElementById('b' + pre).style.zIndex = '0';
             }
             document.getElementById('a' + present).style.color = '';
-            var f = document.getElementById('p' + present);
-            var d = document.getElementById('p' + (present + 1) % 8);
+            let f = document.getElementById('p' + present);
+            let d = document.getElementById('p' + (present + 1) % 8);
             d.style.zIndex = '0';
             d.style.visibility = 'visible';
             f.className += " animated slideOutUp";
@@ -85,14 +91,17 @@ function dd() {
         }
     }, 10);
 }
+
 function nonnn() {
     no = 1;
     console.log('no');
 }
+
 function yes() {
     no = 0;
     console.log('yes');
 }
+
 function go(i) {
     if (doing == 0 && i != present) {
         present = present % 8;
@@ -106,8 +115,8 @@ function go(i) {
         }
         doing = 1;
         document.getElementById('a' + present).style.color = '';
-        var f = document.getElementById('p' + present);
-        var d = document.getElementById('p' + i % 8);
+        let f = document.getElementById('p' + present);
+        let d = document.getElementById('p' + i % 8);
         d.style.zIndex = '0';
         d.style.visibility = 'visible';
         f.className += " animated slideOutUp";
@@ -123,6 +132,7 @@ function go(i) {
         }, 1500);
     }
 }
+
 function su() {
     console.log('su');
     setTimeout(function() {
@@ -138,7 +148,7 @@ function su() {
             }
             doing = 1;
             document.getElementById('a' + present).style.color = '';
-            var f = document.getElementById('p' + present),
+            let f = document.getElementById('p' + present),
                 d = document.getElementById('p' + (present + 7) % 8);
             f.style.zIndex = '0';
             d.style.zIndex = '1';
@@ -158,6 +168,7 @@ function su() {
         }
     }, 10);
 }
+
 function uu() {
     setTimeout(function() {
         if (doing == 0 && no == 0) {
@@ -172,7 +183,7 @@ function uu() {
             }
             doing = 1;
             document.getElementById('a' + present).style.color = '';
-            var f = document.getElementById('p' + present),
+            let f = document.getElementById('p' + present),
                 d = document.getElementById('p' + (present + 7) % 8);
             f.style.zIndex = '0';
             d.style.zIndex = '1';
@@ -193,6 +204,7 @@ function uu() {
         }
     }, 10);
 }
+
 function club() {
     document.getElementById(previous).style.visibility = 'hidden';
     document.getElementById(previous).style.zIndex = '0';
@@ -200,6 +212,7 @@ function club() {
     document.getElementById(previous).style.visibility = 'visible';
     document.getElementById(previous).style.zIndex = '1';
 }
+
 function cs() {
     document.getElementById('b' + pre).style.visibility = 'hidden';
     document.getElementById('b' + pre).style.zIndex = '0';
@@ -207,32 +220,34 @@ function cs() {
     document.getElementById('b' + pre).style.visibility = 'visible';
     document.getElementById('b' + pre).style.zIndex = '1';
 }
+
 function mess() {
-    var n = document.getElementById('abbba').value;
+    let n = document.getElementById('abbba').value;
     messing(n);
 }
+
 function messing(n) {
     if (n == 7) {
-        var ddd = new Date();
+        let ddd = new Date();
         n = ddd.getDay();
     }
-    var a;
+    let a;
     if (n == 0) {
-      a="POHA,JALEBI,CURD#ALOO BANDHA MUTTER,MASOOR DAL EXTRA-VEG BIRYANI/EGG BIRIYANI#ALOO BANDHA MUTTER,MASOOR DAL EXTRA-VEG BIRYANI/EGG BIRIYANI";
+        a = "POHA,JALEBI,CURD#ALOO BANDHA MUTTER,MASOOR DAL EXTRA-VEG BIRYANI/EGG BIRIYANI#ALOO BANDHA MUTTER,MASOOR DAL EXTRA-VEG BIRYANI/EGG BIRIYANI";
     } else if (n == 1) {
-      a = "IDLI/VADA ,SAMBHAR COCONUT CHUTNEY#ALOO BANDHA MUTTER,MASOOR DAL EXTRA-VEG BIRYANI/EGG BIRIYANI#ALOO TAMATAR,LEMON RICE,POORI(PALAK/PLAIN), , ROOHAFZA EXTRA – CHICKEN CURRY,SWEET- RASMALAI";
+        a = "IDLI/VADA ,SAMBHAR COCONUT CHUTNEY#ALOO BANDHA MUTTER,MASOOR DAL EXTRA-VEG BIRYANI/EGG BIRIYANI#ALOO TAMATAR,LEMON RICE,POORI(PALAK/PLAIN), , ROOHAFZA EXTRA – CHICKEN CURRY,SWEET- RASMALAI";
     } else if (n == 2) {
-      a = "VEG SANDWICH#MIX VEG, ARHAR DAL,CHACH  EXTRA- DAHIWADA,MUTTON# CHOLE BHATURE/KULCHA, RICE,CUSTARD";
+        a = "VEG SANDWICH#MIX VEG, ARHAR DAL,CHACH  EXTRA- DAHIWADA,MUTTON# CHOLE BHATURE/KULCHA, RICE,CUSTARD";
     } else if (n == 3) {
-      a = "POORI,CHANA/POORI SABJI,HALWA#ALOO GOBI, RAJMA, BOONDI RAITA EXTRA-PANEER TIKKA#PANEER(BUTTER MASALA),JEERA RICE,MOONG DAL EXTRA -RASGOLA ";
+        a = "POORI,CHANA/POORI SABJI,HALWA#ALOO GOBI, RAJMA, BOONDI RAITA EXTRA-PANEER TIKKA#PANEER(BUTTER MASALA),JEERA RICE,MOONG DAL EXTRA -RASGOLA ";
     } else if (n == 4) {
-      a = "UTTAPAM WITH SAMBHAR AND CHUTNEY#ALOO JEERA,TEHRI, ARHAR DAL, PAPAD EXTRA- METHI MALAI PANEER,MILK CAKE#FRIED RICE/NOODLES,MANCHURIAN,MASOOR DAL EXTRA- CHICKEN BUTTER MASALA/CHICKEN ROASTED";
+        a = "UTTAPAM WITH SAMBHAR AND CHUTNEY#ALOO JEERA,TEHRI, ARHAR DAL, PAPAD EXTRA- METHI MALAI PANEER,MILK CAKE#FRIED RICE/NOODLES,MANCHURIAN,MASOOR DAL EXTRA- CHICKEN BUTTER MASALA/CHICKEN ROASTED";
     } else if (n == 5) {
-      a = "VADAPAV/PAV BHAJI#PARATHA-PANEER/ALOO/MIX, MIX CHUTNEY,CHHOLE EXTRA- SWEET-CHHENA,TIKIA/CHHENA CHAMCHAM#PALAK DAL, ALOO GOBHI MUTTOR GRAVY EXTRA-CHICKEN BIRYANI ,IMARTY RABIDI";
+        a = "VADAPAV/PAV BHAJI#PARATHA-PANEER/ALOO/MIX, MIX CHUTNEY,CHHOLE EXTRA- SWEET-CHHENA,TIKIA/CHHENA CHAMCHAM#PALAK DAL, ALOO GOBHI MUTTOR GRAVY EXTRA-CHICKEN BIRYANI ,IMARTY RABIDI";
     } else if (n == 6) {
-      a = "DOSA,SAMBHAR, COCONUT CHUTNEY# DAL MAKHANI,ALOO PALAK/ALOO CAPSICUM EXTRA- AFGANI PANEER,FISH TIKKA/FISH FRY.#ALOO SOYABIN,MIX DAL,SEVAI/KHEER EXTRA – BUTTER CHIKEN EXTRA-BUTTER CHAMCHAM";
+        a = "DOSA,SAMBHAR, COCONUT CHUTNEY# DAL MAKHANI,ALOO PALAK/ALOO CAPSICUM EXTRA- AFGANI PANEER,FISH TIKKA/FISH FRY.#ALOO SOYABIN,MIX DAL,SEVAI/KHEER EXTRA – BUTTER CHIKEN EXTRA-BUTTER CHAMCHAM";
     }
-    var bbbb = a.split('#');
+    let bbbb = a.split('#');
     document.getElementById('bbbb').innerHTML = "<div style='font-family:rio;font-size:2vh; background-color:rgba(0,0,0,0.3);padding:1vh;'>Mess menu</div>Breakfast : " + bbbb[0] + "<br><br><hr>Lunch : " + bbbb[1] + "<br><br><hr>Dinner:" + bbbb[2];
 }
 window.addEventListener('wheel', function(e) {
@@ -243,7 +258,7 @@ window.addEventListener('wheel', function(e) {
         sd();
     }
 });
-var last = null;
+let last = null;
 $(document).ready(function() {
     messing(7);
     $("#flip").click(function() {
@@ -296,26 +311,26 @@ $(document).ready(function() {
         $("#guidepdf").slideToggle("slow");
     });
 });
-var lastY;
+let lastY;
 $(document).on("pagecreate", function(event) {
     $(window).on("orientationchange", function(event) {
         alert("Orientation changed to: " + event.orientation);
     });
 });
-var img = new Image();
+let img = new Image();
 img.src = 'images/other/download.png';
-var CanvasXSize = 800;
-var CanvasYSize = 200;
-var speed = 30;
-var scale = 1.05;
-var y = -4.5;
-var dx = 0.75;
-var imgW;
-var imgH;
-var x = 0;
-var clearX;
-var clearY;
-var ctx;
+let CanvasXSize = 800;
+let CanvasYSize = 200;
+let speed = 30;
+let scale = 1.05;
+let y = -4.5;
+let dx = 0.75;
+let imgW;
+let imgH;
+let x = 0;
+let clearX;
+let clearY;
+let ctx;
 img.onload = function() {
     imgW = img.width * scale;
     imgH = img.height * scale;
@@ -335,6 +350,7 @@ img.onload = function() {
     ctx = document.getElementById('canvas').getContext('2d');
     return setInterval(draw, speed);
 }
+
 function draw() {
     ctx.clearRect(0, 0, clearX, clearY);
     if (imgW <= CanvasXSize) {

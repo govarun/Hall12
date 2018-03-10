@@ -4,9 +4,6 @@
   if($_POST['submit']){
     $_SESSION['user']=$_POST['user'];
     $_SESSION['password']=$_POST['password'];
-    /*$passwords = array('Abhishek'=>'2a838d082b4228c6437610ae773467d95eb8ed09'
-                , 'Nilay'=>'tiwari2' ,'Adhip'=>'garg3', 'Gajendra'=>'meena4','Siddhartha'=>'srivastava5','Chitral'=>'gupta6','Suryansh'=>'agarwal7','Kalpraj'=>'chaudhari8','Akash'=>'singh9','Sharique'=>'md10');
-    */
     $passwords = array('Abhishek'=>'2a838d082b4228c6437610ae773467d95eb8ed09'
                 , 'Nilay'=>'e1d1264a698e3648fd7b41320495e192c6eb74f1' ,
                 'Adhip'=>'c3240bc9273a7f63ac8c5ce1ab4a5cf70710c4f3',
