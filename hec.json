@@ -77,6 +77,14 @@
       "url":"https://www.facebook.com/suryansh.agarwal.90"
     },
     {
+      "name":"Ganesh Sharma",
+      "post":"Sports Secretary",
+      "mobo":"",
+      "mail":"",
+      "img":"images/hec/ganesh.jpg",
+      "url":"https://www.facebook.com/profile.php?id=100006784009242"
+    },
+    {
       "name":"Kalpraj Chaudhari",
       "post":"Reading Room and Computer Centre Secretary",
       "mobo":"7020721619",
@@ -90,15 +98,15 @@
       "mobo":"9169139387",
       "mail":"akashks@iitk.ac.in",
       "img":"images/hec/akash.jpg",
-      "url":"https://www.facebook.com/akash31ks"
+      "url":"http://akashks1998.github.io/homepage"
     },
     {
-      "name":"Md Sharique",
+      "name":"Utkarsh Dongardive",
       "post":"FMC Secretary",
-      "mobo":"7668116444",
-      "mail":"shariqd@iitk.ac.in",
-      "img":"images/hec/sharique.jpg",
-      "url":"https://www.facebook.com/md.sharique.330"
+      "mobo":"",
+      "mail":"",
+      "img":"images/hec/utkarsh.jpg",
+      "url":"https://www.facebook.com/utkarsh.dongardive.7"
     }
   ],
   "warden":[
