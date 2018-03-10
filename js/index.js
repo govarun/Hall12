@@ -1,49 +1,18 @@
-let db,ref;
-console.log('hia');
 
-function setup() {
-  noCanvas();
-  var config = {
-   apiKey: "AIzaSyB09BJHHUiPtfTmsGyQ785q1-7MzO1PVTY",
-   authDomain: "my-project-1496533920980.firebaseapp.com",
-   databaseURL: "https://my-project-1496533920980.firebaseio.com",
-   projectId: "my-project-1496533920980",
-   storageBucket: "my-project-1496533920980.appspot.com",
-   messagingSenderId: "920752506149"
- };
- firebase.initializeApp(config);
-  db=firebase.database();
-  ref=db.ref('hec-message');
-  ref.on('value',gotd,err);
-}
-function gotd(data) {
-  // let removable=selectAll('.news1');
-  // removable.foreach(function () {
-  //   this.remove();
-  // });
-  let dt = data.val();
-  keys = Object.keys(dt);
-  for (let i = 0; i < keys.length; i++) {
-    a=createDiv('<div><h3>'+dt[keys[i]].title+'</h3><h4>'+dt[keys[i]].text+'</h4><h5>'+dt[keys[i]].user+'<h5></div>');
-    a.parent('news');
-    a.class('events');
-    // a.class('news12');
-    a.style
-  }
-}
-function err(data){
-
-}
 
 var doing = 0,present = 0,no = 0,previous = 0,pre = 0,pond = 0,none=0;
+let modal = document.getElementById('myModal');
 document.getElementById('a' + present).style.color = 'rgb(10,10,10)';
 $('.menu-toggle').click(function() {
+
     $('.site-nav').toggleClass('site-nav--open');
     $(this).toggleClass('open');
     pond = !pond;
     none=1;
 });
 $(document).click(function() {
+    console.log("hall_day");
+    modal.style.display = "none";
 
     if (pond == 1&&!none) {
         pond = 0;
@@ -402,3 +371,4 @@ $(document).keydown(function(e) {
     }
     e.preventDefault();
 });
+// Get the modal
