@@ -30,32 +30,32 @@ span {
 
 @font-face {
     font-family: sam;
-    src: url('fonts/futura-light-condensed-bt-595e133b1a4ff.ttf');
+    src: url('../fonts/futura-light-condensed-bt-595e133b1a4ff.ttf');
 }
 
 @font-face {
     font-family: sama;
-    src: url('fonts/HelveticaRounded-Bold.otf');
+    src: url('../fonts/HelveticaRounded-Bold.otf');
 }
 
 @font-face {
     font-family: samaa;
-    src: url('fonts/futura-light-condensed-bt-595e133b1a4ff.ttf');
+    src: url('../fonts/futura-light-condensed-bt-595e133b1a4ff.ttf');
 }
 
 @font-face {
     font-family: myFont;
-    src: url('fonts/Artifika-Regular.ttf');
+    src: url('../fonts/Artifika-Regular.ttf');
 }
 
 @font-face {
     font-family: rom;
-    src: url('fonts/Rom.ttf');
+    src: url('../fonts/Rom.ttf');
 }
 
 @font-face {
     font-family: rio;
-    src: url('fonts/TrajanPro-Regular.ttf');
+    src: url('../fonts/TrajanPro-Regular.ttf');
 }
 @font-face {
     font-family: 'Quicksand';
@@ -194,26 +194,26 @@ span {
       visibility: hidden;
   }
     #p0 {
-        background-image: url("images/hall/desktop/hall.png");
+        background-image: url("../images/hall/desktop/hall.png");
     }
     #p1 {
-        background-image: url("images/hall/desktop/hallenterence.jpg");
+        background-image: url("../images/hall/desktop/hallenterence.jpg");
     }
     #p2 {
-        background-image: url("images/hall/desktop/top.jpg");
+        background-image: url("../images/hall/desktop/top.jpg");
     }
 
     #p3 {
-        background-image: url("images/hall/desktop/mess.jpg");
+        background-image: url("../images/hall/desktop/mess.jpg");
     }
     #p4 {
-        background-image: url("images/hall/desktop/halloffice.jpg");
+        background-image: url("../images/hall/desktop/halloffice.jpg");
     }
     #p5 {
-        background-image: url("images/hall/desktop/coridoor.jpg");
+        background-image: url("../images/hall/desktop/coridoor.jpg");
     }
     #p7 {
-        background-image: url("images/hall/desktop/corridorside.jpg");
+        background-image: url("../images/hall/desktop/corridorside.jpg");
     }
     .anthumtop {
         font-size: 50px;
@@ -228,7 +228,7 @@ span {
     }
     #shivaji {
         flex: 1;
-        background-image: url(images/other/shivaji.jpg);
+        background-image: url(../images/other/shivaji.jpg);
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
@@ -266,25 +266,25 @@ span {
         visibility: inherit;
     }
     #p0 {
-        background-image: url("images/hall/mobile/hall.jpg");
+        background-image: url("../images/hall/mobile/hall.jpg");
     }
     #p1 {
-        background-image: url("images/hall/mobile/canteen.jpg");
+        background-image: url("../images/hall/mobile/canteen.jpg");
     }
     #p2 {
-        background-image: url("images/hall/mobile/top.jpeg");
+        background-image: url("../images/hall/mobile/top.jpeg");
     }
     #p3 {
-        background-image: url("images/hall/mobile/mess.jpg");
+        background-image: url("../images/hall/mobile/mess.jpg");
     }
     #p4 {
-        background-image: url("images/hall/mobile/halloffice.jpg");
+        background-image: url("../images/hall/mobile/halloffice.jpg");
     }
     #p5 {
-        background-image: url("images/hall/mobile/corridor.jpg");
+        background-image: url("../images/hall/mobile/corridor.jpg");
     }
     #p7 {
-        background-image: url("images/hall/mobile/corridors.jpg");
+        background-image: url("../images/hall/mobile/corridors.jpg");
     }
     #link {
         visibility: hidden;
@@ -781,7 +781,7 @@ canvas {
 }
 .date-box {
     float: left;
-    background-image: url(images/other/calender.png);
+    background-image: url(../images/other/calender.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 55px;

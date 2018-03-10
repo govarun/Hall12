@@ -1,32 +1,12 @@
 
-@font-face {
-    font-family: sam;
-    src: url('fonts/futura-light-condensed-bt-595e133b1a4ff.ttf');
-}
-
-@font-face {
-    font-family: sama;
-    src: url('fonts/HelveticaRounded-Bold.otf');
-}
-
-@font-face {
-    font-family: samaa;
-    src: url('fonts/futura-light-condensed-bt-595e133b1a4ff.ttf');
-}
-
-@font-face {
-    font-family: myFont;
-    src: url('fonts/Artifika-Regular.ttf');
-}
-
-@font-face {
-    font-family: rom;
-    src: url('fonts/Rom.ttf');
-}
-
-@font-face {
-    font-family: rio;
-    src: url('fonts/TrajanPro-Regular.ttf');
+html{
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: absolute;
+  padding: 0px;
+  margin: 0px;
 }
 @font-face {
     font-family: 'Quicksand';
@@ -70,53 +50,58 @@
     src: local('Quicksand Bold'), local('Quicksand-Bold'), url(https://fonts.gstatic.com/s/quicksand/v6/32nyIRHyCu6iqEka_hbKsugdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
-
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Quicksand';
+}
 #p0 {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 100%;
     height: 100%;
     position: absolute;
-    display: flex;
-    z-index: 2;
-    text-align: center;
     font-family: Quicksand;
-    align-items: center;
-    justify-content: center;
 }
 @media screen and (min-width: 800px) {
     #p0 {
-        background-image: url("images/hall/desktop/hall.png");
+        background-image: url("../images/hall/desktop/hall.png");
+    }
+    .anthumtop {
+        font-size: 50px;
+    }
+    .events{
+      min-width: 250px;
+      max-width: 250px;
+      height: 140px;
+      color:black
     }
   }
 
   @media screen and (max-width: 800px) {
+    .events{
+      min-width: 200px;
+      max-width: 200px;
+      height: 130px;
+      }
       #p0 {
-          background-image: url("images/hall/mobile/hall.jpg");
+          background-image: url("../images/hall/mobile/hall.jpg");
+      }
+      .anthumtop {
+          font-size: 30px;
       }
     }
-    html{
-      width: 100%;
-      height: 100%;
-      overflow-x: hidden;
-      overflow-y: hidden;
-      position: absolute;
-      padding: 0px;
-      margin: 0px;
+    .anthumtop {
+        font-family: rio;
+        font-weight: bold;
     }
-#a{
-  background-color: rgba(255,255,255,0.5);
-  width: 100%;
-  height: 100%;
-  top:0px;
-  left: 0px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-   flex-direction:column;
-   color:rgb(50,50,50);
-   font-size: 20px;
-}
 .button{
     font-family:sama;
     font-size: 2vh;
@@ -135,4 +120,60 @@ a:visited {
 }
 a{
     text-decoration: none;
+}
+.date-box {
+    float: left;
+    background-image: url(../images/other/calender.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 55px;
+    width: 44px;
+    z-index: 10;
+    margin: 10px;
+}
+.date-box .date-format {
+    line-height: 20px;
+    padding: 15px 0 0;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    font-family: arial;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.date-box .month-format {
+    font-size: 10px;
+    line-height: 10px;
+    display: block;
+    text-align: center;
+    font-family: arial;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.events{
+  color: black;
+  margin: 2vh;
+  background-repeat: no-repeat;
+  background-color: rgba(255,243,240,0.3);
+  background-size: 100% 100%;
+  box-shadow: 10px 5px 20px #888888;
+  float: left;
+  text-align: left;
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+#a{
+  background-color: rgba(255,255,255,0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   color:rgb(50,50,50);
+   font-size: 20px;
+   flex-wrap: wrap;
+   overflow-y: scroll;
 }
