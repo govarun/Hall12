@@ -200,114 +200,113 @@
           </div>
         </a>
         <div class="hellio">HEC</div>
-
-        <a target="_blank" href="https://www.facebook.com/abhishek.allenstudent">
-          <div class="pa" style="background-image:url('images/hec/abhishek.jpg');">
+        <a target="_blank" href="https://www.facebook.com/yadu.sharma.982845">
+          <div class="pa" style="background-image:url('images/hec/yadu.JPG');">
             <div class="paa">
               president
-              <br>Abhishek Singh
-              <div class="hi">7318019917
-                <br>abhisgh@iitk.ac.in</div>
+              <br>Yadu Sharma
+              <div class="hi">9559024767
+                <br>yadush@iitk.ac.in</div>
             </div>
           </div>
         </a>
-        <a target="_blank" href="https://www.facebook.com/nilay.tiwari.733">
-          <div class="pa" style="background-image:url('images/hec/nilay.jpg');">
+        <a target="_blank" href="https://www.facebook.com/nipun.goyal.562">
+          <div class="pa" style="background-image:url('images/hec/nipun.jpg');">
             <div class="paa">
               Mess and canteen
-              <br>Nilay tiwari
-              <div class="hi">9411844526
-                <br>nilayt@iitk.ac.in</div>
+              <br>Nipun Goyal
+              <div class="hi">9129899059
+                <br>nipung@iitk.ac.in</div>
             </div>
           </div>
         </a>
-        <a target="_blank" href="https://www.facebook.com/adhip.garg">
-          <div class="pa" style="background-image:url('images/hec/adhip.jpg');">
+        <a target="_blank" href="https://www.facebook.com/profile.php?id=100001541155812">
+          <div class="pa" style="background-image:url('images/hec/shrey.jpg');">
             <div class="paa">
               Mess
-              <br>Adhip garg
-              <div class="hi">7318018998,9891669888
-                <br>adhipg@iitk.ac.in</div>
+              <br>Shrey Gaur
+              <div class="hi">9765574214
+                <br>shreyg@iitk.ac.in</div>
             </div>
           </div>
         </a>
-        <a target="_blank" href="https://www.facebook.com/streakzzz101">
-          <div class="pa" style="background-image:url('images/hec/gajendra.jpg');">
+        <a target="_blank" href="https://www.facebook.com/yash2798">
+          <div class="pa" style="background-image:url('images/hec/yashraj.jpg');">
             <div class="paa">
               accounts
-              <br>gajendra meena
-              <div class="hi">7318018981
-                <br>gajenkm@iitk.ac.in</div>
+              <br>Yash Raj Singh
+              <div class="hi">8853635992
+                <br>yashrs@iitk.ac.in</div>
             </div>
           </div>
         </a>
-        <a target="_blank" href="https://www.facebook.com/siddhartha.d.srivastava">
-          <div class="pa" style="background-image:url('images/hec/siddhartha.jpg');">
+        <a target="_blank" href="https://www.facebook.com/nachiket.deoghare">
+          <div class="pa" style="background-image:url('images/hec/nachiket.jpg');">
             <div class="paa">
               maintainence
-              <br>Siddhartha Srivastava
-              <div class="hi">7376235795
-                <br>ssriva@iitk.ac.in</div>
+              <br>Nachiket Deoghare
+              <div class="hi">9823570871
+                <br>nacchi@iitk.ac.in</div>
             </div>
           </div>
         </a>
-        <a target="_blank" href="https://www.facebook.com/chitralgupta11">
-          <div class="pa" style="background-image:url('images/hec/chitral.jpg');">
+        <a target="_blank" href="https://facebook.com/siddharth.barwal.7">
+          <div class="pa" style="background-image:url('images/hec/siddharth.JPG');">
             <div class="paa">
               cultural
-              <br>chitral gupta
-              <div class="hi">9413678035
-                <br>chitral@iitk.ac.in</div>
+              <br>Siddharth Barwal
+              <div class="hi">8400197213
+                <br>sbarwal@iitk.ac.in</div>
             </div>
           </div>
         </a>
-        <a target="_blank" href="https://www.facebook.com/suryansh.agarwal.90">
-          <div class="pa" style="background-image:url('images/hec/suryansh.jpg');">
+        <a target="_blank" href="https://www.facebook.com/aviral.khare.520">
+          <div class="pa" style="background-image:url('images/hec/aviral.jpg');">
             <div class="paa">
               SNT
-              <br>Suryansh Agarwal
-              <div class="hi">9718643337
-                <br>asurya@iitk.ac.in</div>
+              <br>Aviral Khare
+              <div class="hi">8400197563
+                <br>aviralkh@iitk.ac.in</div>
             </div>
           </div>
         </a>
-        <a target="_blank" href="https://www.facebook.com/profile.php?id=100006784009242">
-          <div class="pa" style="background-image:url('images/hec/ganesh.jpg');">
+        <a target="_blank" href="https://www.facebook.com/profile.php?id=100008268451230">
+          <div class="pa" style="background-image:url('images/hec/narendra.jpg');">
             <div class="paa">
               Sports Secretary
-              <br> Ganesh Sharma
-              <div class="hi">
-                <br></div>
+              <br> Narendra Mathuriya
+              <div class="hi">8400197797
+                <br>nrndra@iitk.ac.in</div>
             </div>
           </div>
         </a>
-        <a target="_blank" href="https://www.facebook.com/kalpraj.chaudhari">
-          <div class="pa" style="background-image:url('images/hec/kalpraj.jpg');">
+        <a target="_blank" href="https://www.facebook.com/ratnangshu.das">
+          <div class="pa" style="background-image:url('images/hec/ratnangshu.jpg');">
             <div class="paa">
               RR-CC
-              <br> Kalpraj Chaudhari
-              <div class="hi">7020721619
-                <br>kalpraj@iitk.ac.in</div>
+              <br> RATNANGSHU DAS
+              <div class="hi">8017610875
+                <br>rdas@iitk.ac.in</div>
             </div>
           </div>
         </a>
-        <a target="_blank" href="https://www.facebook.com/akash31ks">
-          <div class="pa" style="background-image:url('images/hec/akash.jpg');">
+        <a target="_blank" href="https://www.facebook.com/nimish.52">
+          <div class="pa" style="background-image:url('images/hec/nimish.jpg');">
             <div class="paa">
-              Web master
-              <br> Akash kumar singh
-              <div class="hi">9169139387
-                <br>akashks@iitk.ac.in</div>
+              Web Master
+              <br> Nimish Agarwal
+              <div class="hi">9149071072
+                <br>agnimish@iitk.ac.in</div>
             </div>
           </div>
         </a>
-        <a target="_blank" href="https://www.facebook.com/utkarsh.dongardive.7">
-          <div class="pa" style="background-image:url('images/hec/utkarsh.jpg');">
+        <a target="_blank" href="https://www.facebook.com/girish.sharma.129357">
+          <div class="pa" style="background-image:url('images/hec/girish.jpg');">
             <div class="paa">
               FMC
-              <br>Utkarsh Dongardive
-              <div class="hi">
-                <br></div>
+              <br>Girish Sharma 
+              <div class="hi">9079981524
+                <br>girishs@iitk.ac.in</div>
             </div>
           </div>
         </a>
