@@ -318,15 +318,15 @@
           Mess menu
           <br>
           <select name="mess" id="abbba">
-                        <option value="7">Today</option>
-                        <option value="0">Sunday</option>
-                        <option value="1">Monday</option>
-                        <option value="2">Tuesday</option>
-                        <option value="3">Wednesday</option>
-                        <option value="4">Thursday</option>
-                        <option value="5">Friday</option>
-                        <option value="6">Saturday</option>
-                    </select>
+              <option value="7">Today</option>
+              <option value="0">Sunday</option>
+              <option value="1">Monday</option>
+              <option value="2">Tuesday</option>
+              <option value="3">Wednesday</option>
+              <option value="4">Thursday</option>
+              <option value="5">Friday</option>
+              <option value="6">Saturday</option>
+          </select>
           <div class="button" onclick="mess()">Submit</div>
         </form>
         <div id="bbbb">
