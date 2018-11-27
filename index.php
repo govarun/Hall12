@@ -10,7 +10,7 @@
   />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="keywords" content="hall12,Hall 12,IIT Kanpur">
-  <meta name="author" content="Akash kumar singh">
+  <meta name="author" content="Nimish Agarwal">
   <script src="js/lib/jquery-1.11.1.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -86,85 +86,13 @@
       <div class="a" id="azara" style="  position: absolute;  width: 100%;  background-size: 100% 100%;height: 100%;background-color:rgba(255,255,255,0.3);display:flex;flex-direction:column;  align-items: center;justify-content: center;font-family:samaa;color:rgb(50,50,50);">
         <div style="font-family:sama;">Hall 12</div>
         <br>
-        <div style="width:70vw">Hall of Residence 12 is the newest among all other hostels at IIT Kanpur. It is the only male Hostel having a lift for the students. It is situated at the north-west zone of IIT Kanpur campus. The hostel has six blocks, A, B, C, D, E, and F and
-          each block is 6 storey building. It has a capacity of about 600 students with about 456 rooms. The Hall has single, double and triple occupancy... The hall mainly consists of first, second, third-year B.Tech students.</div>
-      </div>
-    </div>
-    <div id="p2" class="pages">
-      <div class="ohellx" onmouseover="nonnn()" onmouseout="yes()">
-        <div style="z-index: inherit;" id="announcement">
-          <div class="anthumtop">Hall office</div>
-          <div id="helli" onmouseover="nonnn()" onmouseout="yes()">
-            <div class="pa" style="background-image:url('images/office/o1.jpeg');">
-              <div class="paa">
-                OFFICE INCHARGE
-                <br>SUNIL KUMAR PATHAK
-                <div class="hi">9125323884
-                </div>
-              </div>
-            </div>
-            <div class="pa" style="background-image:url('images/office/o2.jpg');">
-              <div class="paa">
-                assistant
-                <br>DINESH CHANDRA PAL
-                <div class="hi">7309200637
-                </div>
-              </div>
-            </div>
-            <div class="pa" style="background-image:url('images/office/o3.jpg');">
-              <div class="paa">
-                assistant
-                <br>DINESH GAUR
-                <div class="hi">8960623343
-                </div>
-              </div>
-            </div>
-          </div>
-          <div style="display:flex;flex-wrap: nowrap;font-family: 'Open Sans', sans-serif;">
-            <div style="flex:1;margin-bottom:50px;display: flex;align-items: center;flex-direction:column;;">
-              <br>
-              <div style="flex:1;margin-bottom:50px;display: flex;align-items: center;justify-content:center;flex-wrap:wrap;" id="news">
-                <a href="administration.html" target="_blank" class="events">
-                  <div style="margin:auto;">ADMINISTRATION</div>
-                </a>
-                <a href="meet.html" target="_blank" class="events">
-                  <div style="margin:auto;"><b><b>MINUTES OF MEETING</b><br></b>
-                  </div>
-                </a>
-                <a href="https://docs.google.com/spreadsheets/d/15eudwkEox4yarSqp2PxNuWx_1F6A6z0neaO5bXa37ZE/edit#gid=0" target="_blank" class="events">
-                  <div class="date-box">
-                    <div class="date-format">29</div>
-                    <div class="month-format">Aug'17</div>
-                  </div>
-                  <div style="margin:auto;"><b><b>BUDGET</b><br></b>
-                  </div>
-                </a>
-                <a href="https://docs.google.com/spreadsheets/d/10sOOC30sO2O8n7AUMHeyvpelGF-7R_9bv-aFTMQt67Y/edit#gid=0" target="_blank" class="events">
-                  <div class="date-box">
-                    <div class="date-format">25</div>
-                    <div class="month-format">Jan'18</div>
-                  </div>
-                  <div style="margin:auto;"><b><b>PURCHASE DETAILS</b><br></b>
-                  </div>
-                </a>
-                <a href="notification.html" target="_blank" class="events">
-                  <div style="margin:auto;"><b><b>NOTIFICATION</b><br></b>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <!--  <div style="flex:1;min-width:500px;width:auto;flex:1;margin-bottom:50px;display: flex;align-items: center;flex-direction:column;">
-            <div class="anthumtop">Minutes of meeting</div>
-            <a href="pdf/1st.pdf" target="_blank" class="events">
-             <div class="date-box">
-              <div class="date-format">8</div>
-              <div class="month-format">Aug'17</div>
-            </div> <b>First HEC Meeting</b><br>
-          </a>
-        </div>--></div>
+        <div style="width:70vw">
+          Hall of Residence 12 is the newest among all other hostels at IIT Kanpur. It is the only male Hostel having a lift for the students. It is situated at the north-west zone of IIT Kanpur campus. The hostel has six blocks, A, B, C, D, E, and F and
+          each block is 6 storey building. It has a capacity of about 600 students with about 456 rooms. The Hall has single, double and triple occupancy... The hall mainly consists of first, second, third-year B.Tech students.
         </div>
       </div>
     </div>
+
     <div id="p1" class="pages">
       <div class="helli" onmouseover="nonnn()" onmouseout="yes()">
         <div class="hellio">wardens</div>
@@ -312,6 +240,84 @@
         </a>
       </div>
     </div>
+
+        
+        <div id="p2" class="pages">
+      <div class="ohellx" onmouseover="nonnn()" onmouseout="yes()">
+        <div style="z-index: inherit;" id="announcement">
+          <div class="anthumtop">Hall office</div>
+          <div id="helli" onmouseover="nonnn()" onmouseout="yes()">
+            <div class="pa" style="background-image:url('images/office/o1.jpeg');">
+              <div class="paa">
+                OFFICE INCHARGE
+                <br>SUNIL KUMAR PATHAK
+                <div class="hi">9125323884
+                </div>
+              </div>
+            </div>
+            <div class="pa" style="background-image:url('images/office/o2.jpg');">
+              <div class="paa">
+                assistant
+                <br>DINESH CHANDRA PAL
+                <div class="hi">7309200637
+                </div>
+              </div>
+            </div>
+            <div class="pa" style="background-image:url('images/office/o3.jpg');">
+              <div class="paa">
+                assistant
+                <br>DINESH GAUR
+                <div class="hi">8960623343
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="display:flex;flex-wrap: nowrap;font-family: 'Open Sans', sans-serif;">
+            <div style="flex:1;margin-bottom:50px;display: flex;align-items: center;flex-direction:column;;">
+              <br>
+              <div style="flex:1;margin-bottom:50px;display: flex;align-items: center;justify-content:center;flex-wrap:wrap;" id="news">
+                <a href="administration.html" target="_blank" class="events">
+                  <div style="margin:auto;">ADMINISTRATION</div>
+                </a>
+                <a href="meet.html" target="_blank" class="events">
+                  <div style="margin:auto;"><b><b>MINUTES OF MEETING</b><br></b>
+                  </div>
+                </a>
+                <a href="https://docs.google.com/spreadsheets/d/15eudwkEox4yarSqp2PxNuWx_1F6A6z0neaO5bXa37ZE/edit#gid=0" target="_blank" class="events">
+                  <div class="date-box">
+                    <div class="date-format">29</div>
+                    <div class="month-format">Aug'17</div>
+                  </div>
+                  <div style="margin:auto;"><b><b>BUDGET</b><br></b>
+                  </div>
+                </a>
+                <a href="https://docs.google.com/spreadsheets/d/10sOOC30sO2O8n7AUMHeyvpelGF-7R_9bv-aFTMQt67Y/edit#gid=0" target="_blank" class="events">
+                  <div class="date-box">
+                    <div class="date-format">25</div>
+                    <div class="month-format">Jan'18</div>
+                  </div>
+                  <div style="margin:auto;"><b><b>PURCHASE DETAILS</b><br></b>
+                  </div>
+                </a>
+                <a href="notification.html" target="_blank" class="events">
+                  <div style="margin:auto;"><b><b>NOTIFICATION</b><br></b>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!--  <div style="flex:1;min-width:500px;width:auto;flex:1;margin-bottom:50px;display: flex;align-items: center;flex-direction:column;">
+            <div class="anthumtop">Minutes of meeting</div>
+            <a href="pdf/1st.pdf" target="_blank" class="events">
+             <div class="date-box">
+              <div class="date-format">8</div>
+              <div class="month-format">Aug'17</div>
+            </div> <b>First HEC Meeting</b><br>
+          </a>
+        </div>--></div>
+        </div>
+      </div>
+    </div>
+
     <div id="p3" class="pages">
       <div id="mess">
         <form>
@@ -358,14 +364,14 @@
           <div class="linked">Sports equipments
           </div>
         </a>
-        <a target="_blank" href="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdhoowRE0tdKBpvT8PcGq99Zc7LcEtLaGVDJnCsfumlCbZefQ/viewform?usp=sf_link">
+        <!-- <a target="_blank" href="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdhoowRE0tdKBpvT8PcGq99Zc7LcEtLaGVDJnCsfumlCbZefQ/viewform?usp=sf_link">
           <div class="linked">Ask the HEC
           </div>
         </a>
         <a target="_blank" href="https://docs.google.com/spreadsheets/d/1r_4fDJN7NjCypXM9JDeJxqHpKV0m_kMb4drrcvVny7g/edit?usp=sharing">
           <div class="linked">Ask the HEC-response
           </div>
-        </a>
+        </a> -->
         <a target="_blank" href="http://pkklib.iitk.ac.in/">
           <div class="linked">P K Kelkar library
           </div>
@@ -416,8 +422,8 @@
           </a>
           <div id="fl" style="cursor:pointer;">Books list</div>
           <div id="flii" style="cursor:pointer;">Sports equipments</div>
-          <div id="fliii" style="cursor:pointer;">Ask the HEC</div>
-          <div id="fliiii" style="cursor:pointer;">Ask the HEC-response</div>
+          <!-- <div id="fliii" style="cursor:pointer;">Ask the HEC</div> -->
+          <!-- <div id="fliiii" style="cursor:pointer;">Ask the HEC-response</div> -->
           <a target="_blank" href="http://pkklib.iitk.ac.in/">
             <div class="linked">P K Kelkar library
             </div>
