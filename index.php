@@ -97,12 +97,25 @@
         <div style="z-index: inherit;top:0px; right:0px;" id="anthum" onmouseover="nonnn()" onmouseout="yes()">
           <div class="anthumtop">Hall 12</div>
           <br>
-          <br> General championship is an annual inter hostel event organised by the student's Gymkhana which tests the hall residents with different skill set. Every council has a different event with the council relevant competitions like inferno for
-          sports, takneek for technological and entrepreneurship skills, Spectrum is organised by the films and media council and galaxy to test the cultural skill. Each hostel strives hard to win the extravagant General championship trophy. Each participating
-          hall has a pool name allotted to it. We participate under the pool name Maratha.
           <br>
+          Hall of Residence 12 is the newest among all other hostels at IIT Kanpur. It is the only male Hostel having a lift for the students. It is situated at the north-west zone of IIT Kanpur campus. The hostel has six blocks, A, B, C, D, E, and F and
+          each block is 6 storey building. It has a capacity of about 600 students with about 456 rooms. The Hall has single, double and triple occupancy... The hall mainly consists of first, second, third-year B.Tech students.
+          <br><br>
+          <br><br>
+          <img src="./images/hall/desktop/hall.png" width="80%">
           <br>
+          <br><br>
+          <img src="./images/hall/desktop/mess.jpg" width="80%">
+          <br><br>
           <br>
+          <img src="./images/hall/desktop/coridoor.jpg" width="80%">
+          <br><br>
+          <br>
+          <img src="./images/hall/desktop/hallenterence.jpg" width="80%">
+          <br><br>
+          <br>
+          <img src="./images/hall/desktop/canteen.jpg" width="80%">
+          <br><br>
           <br>
         </div>
         <canvas id="canvas"></canvas>
