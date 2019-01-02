@@ -82,7 +82,7 @@
     </div>
   </div> -->
   <div id="bo">
-    <div id="p0" class="pages">
+    <!-- <div id="p0" class="pages">
       <div class="a" id="azara" style="  position: absolute;  width: 100%;  background-size: 100% 100%;height: 100%;background-color:rgba(255,255,255,0.3);display:flex;flex-direction:column;  align-items: center;justify-content: center;font-family:samaa;color:rgb(50,50,50);">
         <div style="font-family:sama;">Hall 12</div>
         <br>
@@ -91,6 +91,23 @@
           each block is 6 storey building. It has a capacity of about 600 students with about 456 rooms. The Hall has single, double and triple occupancy... The hall mainly consists of first, second, third-year B.Tech students.
         </div>
       </div>
+    </div> -->
+    <div id="p0" class="pages">
+      <div class="hellx">
+        <div style="z-index: inherit;top:0px; right:0px;" id="anthum" onmouseover="nonnn()" onmouseout="yes()">
+          <div class="anthumtop">Hall 12</div>
+          <br>
+          <br> General championship is an annual inter hostel event organised by the student's Gymkhana which tests the hall residents with different skill set. Every council has a different event with the council relevant competitions like inferno for
+          sports, takneek for technological and entrepreneurship skills, Spectrum is organised by the films and media council and galaxy to test the cultural skill. Each hostel strives hard to win the extravagant General championship trophy. Each participating
+          hall has a pool name allotted to it. We participate under the pool name Maratha.
+          <br>
+          <br>
+          <br>
+          <br>
+        </div>
+        <canvas id="canvas"></canvas>
+      </div>
+      <div id="shivaji"></div>
     </div>
 
     <div id="p1" class="pages">
@@ -242,16 +259,16 @@
     </div>
 
         
-        <div id="p2" class="pages">
+      <div id="p2" class="pages">
       <div class="ohellx" onmouseover="nonnn()" onmouseout="yes()">
         <div style="z-index: inherit;" id="announcement">
           <div class="anthumtop">Hall office</div>
           <div id="helli" onmouseover="nonnn()" onmouseout="yes()">
-            <div class="pa" style="background-image:url('images/office/o1.jpeg');">
+            <div class="pa" style="background-image:url('images/office/o1_new.png');">
               <div class="paa">
                 OFFICE INCHARGE
-                <br>SUNIL KUMAR PATHAK
-                <div class="hi">9125323884
+                <br>VIMAL KISHORE
+                <div class="hi">9389926231
                 </div>
               </div>
             </div>
@@ -263,11 +280,11 @@
                 </div>
               </div>
             </div>
-            <div class="pa" style="background-image:url('images/office/o3.jpg');">
+            <div class="pa" style="background-image:url('images/office/o3_new.jpeg');">
               <div class="paa">
                 assistant
-                <br>DINESH GAUR
-                <div class="hi">8960623343
+                <br>DEEPAK KUMAR
+                <div class="hi">9889204423
                 </div>
               </div>
             </div>
@@ -364,11 +381,11 @@
           <div class="linked">Sports equipments
           </div>
         </a>
-        <!-- <a target="_blank" href="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdhoowRE0tdKBpvT8PcGq99Zc7LcEtLaGVDJnCsfumlCbZefQ/viewform?usp=sf_link">
+        <a target="_blank" href="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdhoowRE0tdKBpvT8PcGq99Zc7LcEtLaGVDJnCsfumlCbZefQ/viewform?usp=sf_link">
           <div class="linked">Ask the HEC
           </div>
         </a>
-        <a target="_blank" href="https://docs.google.com/spreadsheets/d/1r_4fDJN7NjCypXM9JDeJxqHpKV0m_kMb4drrcvVny7g/edit?usp=sharing">
+        <!-- <a target="_blank" href="https://docs.google.com/spreadsheets/d/1r_4fDJN7NjCypXM9JDeJxqHpKV0m_kMb4drrcvVny7g/edit?usp=sharing">
           <div class="linked">Ask the HEC-response
           </div>
         </a> -->
@@ -422,7 +439,7 @@
           </a>
           <div id="fl" style="cursor:pointer;">Books list</div>
           <div id="flii" style="cursor:pointer;">Sports equipments</div>
-          <!-- <div id="fliii" style="cursor:pointer;">Ask the HEC</div> -->
+          <div id="fliii" style="cursor:pointer;">Ask the HEC</div>
           <!-- <div id="fliiii" style="cursor:pointer;">Ask the HEC-response</div> -->
           <a target="_blank" href="http://pkklib.iitk.ac.in/">
             <div class="linked">P K Kelkar library
