@@ -313,11 +313,7 @@
                   <div style="margin:auto;"><b><b>MINUTES OF MEETING</b><br></b>
                   </div>
                 </a>
-                <a href="https://docs.google.com/spreadsheets/d/15eudwkEox4yarSqp2PxNuWx_1F6A6z0neaO5bXa37ZE/edit#gid=0" target="_blank" class="events">
-                  <div class="date-box">
-                    <div class="date-format">29</div>
-                    <div class="month-format">Aug'17</div>
-                  </div>
+                <a href="budget.html" target="_blank" class="events">
                   <div style="margin:auto;"><b><b>BUDGET</b><br></b>
                   </div>
                 </a>
