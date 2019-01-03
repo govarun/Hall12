@@ -102,19 +102,19 @@
           each block is 6 storey building. It has a capacity of about 600 students with about 456 rooms. The Hall has single, double and triple occupancy... The hall mainly consists of first, second, third-year B.Tech students.
           <br><br>
           <br><br>
-          <img src="./images/hall/desktop/hall.png" width="80%">
+          <img src="./images/hall/desktop/hall.png" width="100%">
           <br>
           <br><br>
-          <img src="./images/hall/desktop/mess.jpg" width="80%">
+          <img src="./images/hall/desktop/mess.jpg" width="100%">
           <br><br>
           <br>
-          <img src="./images/hall/desktop/coridoor.jpg" width="80%">
+          <img src="./images/hall/desktop/coridoor.jpg" width="100%">
           <br><br>
           <br>
-          <img src="./images/hall/desktop/hallenterence.jpg" width="80%">
+          <img src="./images/hall/desktop/hallenterence.jpg" width="100%">
           <br><br>
           <br>
-          <img src="./images/hall/desktop/canteen.jpg" width="80%">
+          <img src="./images/hall/desktop/canteen.jpg" width="100%">
           <br><br>
           <br>
         </div>
