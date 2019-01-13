@@ -449,6 +449,7 @@
           <div id="fl" style="cursor:pointer;">Books list</div>
           <div id="flii" style="cursor:pointer;">Sports equipments</div>
           <div id="fliii" style="cursor:pointer;">Ask the HEC</div>
+          <a href="mess-committee.html" target="_blank"><div id="fliii" style="cursor:pointer;">Mess Committee</div></a>
           <!-- <div id="fliiii" style="cursor:pointer;">Ask the HEC-response</div> -->
           <a target="_blank" href="http://pkklib.iitk.ac.in/">
             <div class="linked">P K Kelkar library
