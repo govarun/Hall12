@@ -314,7 +314,7 @@
                   </div>
                 </a>
                 <a href="budget.html" target="_blank" class="events">
-                  <div style="margin:auto;"><b><b>BUDGET</b><br></b>
+                  <div style="margin:auto;color: brown"><b><b>BUDGET - Updated</b><br></b>
                   </div>
                 </a>
                 <a href="https://docs.google.com/spreadsheets/d/10sOOC30sO2O8n7AUMHeyvpelGF-7R_9bv-aFTMQt67Y/edit#gid=0" target="_blank" class="events">
