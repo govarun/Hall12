@@ -386,18 +386,18 @@
           <div class="linked">Books in reading room
           </div>
         </a>
-        <a target="_blank" href="https://docs.google.com/spreadsheets/d/1M2QEy0_zurx-qSNCFKfN-utSp8rgrdJLaGWOVa85JCc/pubhtml?widget=true&amp;headers=false">
-          <div class="linked">Sports equipments
+        <a target="_blank" href="https://docs.google.com/document/d/1sl6WFQq5HjdaIUzkUTEDq0urN57x23VNgM-Zy5ACZHU/edit?usp=sharing">
+          <div class="linked">Sports Inventory
           </div>
         </a>
         <a target="_blank" href="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdhoowRE0tdKBpvT8PcGq99Zc7LcEtLaGVDJnCsfumlCbZefQ/viewform?usp=sf_link">
           <div class="linked">Ask the HEC
           </div>
         </a>
-        <!-- <a target="_blank" href="https://docs.google.com/spreadsheets/d/1r_4fDJN7NjCypXM9JDeJxqHpKV0m_kMb4drrcvVny7g/edit?usp=sharing">
+        <a target="_blank" href="https://docs.google.com/document/d/1Y-osK88Ka3zT8dmFlLYutTW19l7LRYuI6ANFPcNnX_Q/edit?usp=sharing">
           <div class="linked">Ask the HEC-response
           </div>
-        </a> -->
+        </a>
         <a target="_blank" href="http://pkklib.iitk.ac.in/">
           <div class="linked">P K Kelkar library
           </div>
@@ -447,7 +447,8 @@
             </div>
           </a>
           <div id="fl" style="cursor:pointer;">Books list</div>
-          <div id="flii" style="cursor:pointer;">Sports equipments</div>
+          <div id="flii" style="cursor:pointer;">Sports Inventory</div>
+          <div id="fliiii" style="cursor:pointer;">Cultural Inventory</div>
           <div id="fliii" style="cursor:pointer;">Ask the HEC</div>
           <a href="mess-committee.html" target="_blank"><div id="fliii" style="cursor:pointer;">Mess Committee</div></a>
           <!-- <div id="fliiii" style="cursor:pointer;">Ask the HEC-response</div> -->
@@ -505,15 +506,15 @@
             <iframe src="https://docs.google.com/spreadsheets/d/1ZAPdzLQPMsI6QD4f0BQXiI4h5uigi0xb7RCtmyK85Ts/pubhtml?widget=true&amp;headers=false" height="800" frameborder="0" marginheight="0" marginwidth="0" style="width:48vw;"></iframe>
           </div>
           <div id="pann">
-            <iframe src="https://docs.google.com/spreadsheets/d/1M2QEy0_zurx-qSNCFKfN-utSp8rgrdJLaGWOVa85JCc/pubhtml?widget=true&amp;headers=false" height="800" frameborder="0" marginheight="0" marginwidth="0" style="width:48vw;"></iframe>
+            <iframe src="https://docs.google.com/document/d/e/2PACX-1vRnF0PS6qoaO9vytXHUiAgUsQ3kJjTcRZ_0upCq5sTn4Ib0LkCkf4kgYVE_oeJGkQJSRMG5_08xSEqb/pub?embedded=true" height="800" frameborder="0" marginheight="0" marginwidth="0" style="width:48vw;"></iframe>
           </div>
           <div id="pannn">
             <iframe src="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdhoowRE0tdKBpvT8PcGq99Zc7LcEtLaGVDJnCsfumlCbZefQ/viewform?embedded=true" style="width:48vw;" height="800" frameborder="0" marginheight="0" marginwidth="0">
-                        </iframe>
+            </iframe>
           </div>
           <div id="pannnn">
-            <iframe src="https://docs.google.com/spreadsheets/d/1r_4fDJN7NjCypXM9JDeJxqHpKV0m_kMb4drrcvVny7g/edit?usp=sharing" style="width:48vw;" height="800" frameborder="0" marginheight="0" marginwidth="0">
-                        </iframe>
+            <iframe src="https://docs.google.com/document/d/e/2PACX-1vQtPpMQQZ-icykVvEdPWbASbCt4c7tT1yxnDeKjhO1yqD2HVsB1etxQcC2tMCHXbu8pja58pS5JzTFK/pub?embedded=true" style="width:48vw;" height="800" frameborder="0" marginheight="0" marginwidth="0">
+            </iframe>
           </div>
         </div>
       </div>
