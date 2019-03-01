@@ -374,7 +374,6 @@
       </div>
     </div>
 
-
     <div id="p4" class="pages">
       <div id="az">
         <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScuJ1qQTXBfdi6VEq_mGPX0ON7KRFbaO2gTLANGu92gxloszA/viewform?usp=sf_link">
@@ -434,7 +433,7 @@
           </div>
         </a>
         <a target="_blank" href="http://pingala.iitk.ac.in/">
-          <div class="linked">Lodge Complaint (Pingala)
+          <div class="linked">Pingala Portal
           </div>
         </a>
         <a target="_blank" href="https://www.iitk.ac.in/hc/">
@@ -721,14 +720,15 @@
           <br>
           <div class="anthumtop">General championship results</div>
           <br>
-          <br>The amount of hard work and the dedication with which our hall residents participates in general championship can be clearly seen by this year results-
+          <br>The amount of hard work and the dedication with which our hall residents participates in general championship can be clearly seen in the results, 
+          <br><br>This Year Result -
+          <br>
+          <br>Takneek - 1st
+          <br>Galaxy and Spectrum - 2nd
+          <br>
+          <br>Past year Result - 
           <br>
           <br>Fresher-Inferno - 1st
-          <br>Takneek - 1st
-          <br>
-          <br>The amount of hard work and the dedication with which our hall residents participates in general championship can be clearly seen by the last year results-
-          <br>
-          <br>Inferno - 1st
           <br>Takneek - 1st
           <br>Spectrum - 2nd
           <br>Galaxy - 3rd
