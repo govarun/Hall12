@@ -218,14 +218,14 @@ span {
         background-image: url("../images/hall/desktop/hallenterence.jpg");
     }
     #p2 {
-        background-image: url("../images/hall/desktop/top.jpg");
+        background-image: url("../images/hall/desktop/halloffice.jpg");
     }
 
     #p3 {
         background-image: url("../images/hall/desktop/mess.jpg");
     }
     #p4 {
-        background-image: url("../images/hall/desktop/halloffice.jpg");
+        background-image: url("../images/hall/desktop/hallenterence.jpg");
     }
     #p5 {
         background-image: url("../images/hall/desktop/coridoor.jpg");
@@ -418,6 +418,7 @@ a {
     width: 100%;
     z-index: 1;
     overflow-y: scroll;
+    bottom: 10%;
 }
 
 #links {
@@ -514,7 +515,8 @@ form {
 #flii,
 #fliii,
 .linked,
-#fliiii{
+#fliiii,
+#fliiiii{
     margin: auto;
     margin-top: 1.5vh;
     font-family: Quicksand;
@@ -533,7 +535,8 @@ form {
 #pan,
 #pann,
 #pannn,
-#pannnn{
+#pannnn,
+#pannnnn{
     text-align: center;
     padding: 1vh;
     margin-bottom: 2vh;

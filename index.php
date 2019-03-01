@@ -268,6 +268,7 @@
             </div>
           </div>
         </a>
+        
       </div>
     </div>
 
@@ -372,6 +373,8 @@
         </a></div>
       </div>
     </div>
+
+
     <div id="p4" class="pages">
       <div id="az">
         <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScuJ1qQTXBfdi6VEq_mGPX0ON7KRFbaO2gTLANGu92gxloszA/viewform?usp=sf_link">
@@ -395,7 +398,11 @@
           </div>
         </a>
         <a target="_blank" href="https://docs.google.com/document/d/1Y-osK88Ka3zT8dmFlLYutTW19l7LRYuI6ANFPcNnX_Q/edit?usp=sharing">
-          <div class="linked">Ask the HEC-response
+          <div class="linked">Cultural Inventory
+          </div>
+        </a>
+        <a target="_blank" href="https://docs.google.com/document/d/1Z7vB2C9eHqkLJ8rY6peb_JKUjnPDvCPjyNRfMbLg2X8/edit?usp=sharing">
+          <div class="linked">SnT Inventory
           </div>
         </a>
         <a target="_blank" href="http://pkklib.iitk.ac.in/">
@@ -427,17 +434,18 @@
           </div>
         </a>
         <a target="_blank" href="http://pingala.iitk.ac.in/">
-          <div class="linked">IWD Complaint
+          <div class="linked">Lodge Complaint (Pingala)
+          </div>
+        </a>
+        <a target="_blank" href="https://www.iitk.ac.in/hc/">
+          <div class="linked">Health center
           </div>
         </a>
         <a target="_blank" href="http://www.iitk.ac.in/ccnew/index.php/network/hostel-ip-address">
           <div class="linked">Room IP address
           </div>
         </a>
-        <a target="_blank" href="http://www.iitk.ac.in/hc/">
-          <div class="linked">Health center
-          </div>
-        </a>
+        
       </div>
       <div id="link">
         <div id="links">
@@ -449,6 +457,7 @@
           <div id="fl" style="cursor:pointer;">Books list</div>
           <div id="flii" style="cursor:pointer;">Sports Inventory</div>
           <div id="fliiii" style="cursor:pointer;">Cultural Inventory</div>
+          <div id="fliiiii" style="cursor:pointer;">SnT Inventory</div>
           <div id="fliii" style="cursor:pointer;">Ask the HEC</div>
           <a href="mess-committee.html" target="_blank"><div id="fliii" style="cursor:pointer;">Mess Committee</div></a>
           <!-- <div id="fliiii" style="cursor:pointer;">Ask the HEC-response</div> -->
@@ -481,17 +490,18 @@
             </div>
           </a>
           <a target="_blank" href="http://pingala.iitk.ac.in/">
-            <div class="linked">IWD Complaint
-            </div>
-          </a>
-          <a target="_blank" href="http://www.iitk.ac.in/ccnew/index.php/network/hostel-ip-address">
-            <div class="linked">Room IP address
+            <div class="linked">Lodge Complaint (Pingala)
             </div>
           </a>
           <a target="_blank" href="http://www.iitk.ac.in/hc/">
             <div class="linked">Health center
             </div>
           </a>
+          <a target="_blank" href="http://www.iitk.ac.in/ccnew/index.php/network/hostel-ip-address">
+            <div class="linked">Room IP address
+            </div>
+          </a>
+          
         </div>
         <div style="overflow-y:scroll;flex:1;max-height:80vh;background-color:rgba(00,00,00,0);padding-bottom:4vh;padding-left:0px;" onmouseover="nonnn()" onmouseout="yes()">
           <div id="panel">
@@ -514,6 +524,10 @@
           </div>
           <div id="pannnn">
             <iframe src="https://docs.google.com/document/d/e/2PACX-1vQtPpMQQZ-icykVvEdPWbASbCt4c7tT1yxnDeKjhO1yqD2HVsB1etxQcC2tMCHXbu8pja58pS5JzTFK/pub?embedded=true" style="width:48vw;" height="800" frameborder="0" marginheight="0" marginwidth="0">
+            </iframe>
+          </div>
+          <div id="pannnnn">
+          <iframe src="https://docs.google.com/document/d/e/2PACX-1vRCiW7Hvk2Du-Ogp5JmVV6bcMf37IYq2_E2KX9D_GBKL2DkbdMy_jNVXtv6Wt2XqQDEasfU4JA19RLf/pub?embedded=true"  style="width:48vw;" height="800" frameborder="0" marginheight="0" marginwidth="0"></iframe>
             </iframe>
           </div>
         </div>

@@ -304,6 +304,13 @@ $(document).ready(function() {
         last = $("#pannnn");
         $("#pannnn").slideToggle("slow");
     });
+    $("#fliiiii").click(function() {
+        if (last != null && last != $("#pannnnn")) {
+            last.slideToggle("slow");
+        }
+        last = $("#pannnnn");
+        $("#pannnnn").slideToggle("slow");
+    });
     $("#antirag").click(function() {
         $("#antpdf").slideToggle("slow");
     });
