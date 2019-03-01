@@ -129,7 +129,7 @@
         <a target="_blank" href="http://home.iitk.ac.in/~agaur/">
           <div class="pa" style="background-image:url('images/warden/anshu.jpeg');">
             <div class="paa">
-              Warden incharge
+            Mess Warden
               <br>Anshu gaur
               <div class="hi"> +91 512 2597600
                 <br>agaur@iitk.ac.in
@@ -140,7 +140,7 @@
         <a target="_blank" href="http://iitk.ac.in/new/ark-verma">
           <div class="pa" style="background-image:url('images/warden/ark.jpeg');">
             <div class="paa">
-              Mess Warden
+            Warden In-Charge
               <br>Ark verma
               <div class="hi">0512-259-6847
                 <br>arkverma@iitk.ac.in</div>
@@ -325,7 +325,7 @@
                   <div style="margin:auto;"><b><b>PURCHASE DETAILS</b><br></b>
                   </div>
                 </a>
-                <a href="notification.html" target="_blank" class="events">
+                <a href="https://www.facebook.com/hall12iitkanpur/" target="_blank" class="events">
                   <div style="margin:auto;"><b><b>NOTIFICATION</b><br></b>
                   </div>
                 </a>
@@ -367,7 +367,7 @@
         <div style="display: flex;margin-bottom:10px;align-items: center;justify-content: center;width:100vw;"><a href="https://docs.google.com/spreadsheets/d/1WitjnJLHRxDSlFJM5YZeFnLMqg3uXT39vgfQ2Lwhly8/edit?usp=sharing" class="button">
           Hall dues
         </a></div>
-        <div style="display: flex;align-items: center;justify-content: center;width:100vw;"><a target="_blank" href="https://www.onlinesbi.com/prelogin/icollecthome.htm" class="button">
+        <div style="display: flex;align-items: center;justify-content: center;width:100vw;"><a target="_blank" href="https://www.onlinesbi.com/sbicollect/icollecthome.htm" class="button">
           PAY hall dues
         </a></div>
       </div>
