@@ -76,11 +76,11 @@
     </div>
   </header>
   <!-- Modal content -->
-  <!-- <div id="myModal" class="modal">
+  <div id="myModal" class="modal">
     <div class="modal-content">
-      <img src="images/other/hall_day.jpg" alt="Smiley face" height="550px" width="350px">
+      <img src="images/other/hall_day19.jpg" alt="Smiley face" height="550px" width="350px">
     </div>
-  </div> -->
+  </div>
   <div id="bo">
     <!-- <div id="p0" class="pages">
       <div class="a" id="azara" style="  position: absolute;  width: 100%;  background-size: 100% 100%;height: 100%;background-color:rgba(255,255,255,0.3);display:flex;flex-direction:column;  align-items: center;justify-content: center;font-family:samaa;color:rgb(50,50,50);">
@@ -371,8 +371,8 @@
         <div style="display: flex;align-items: center;justify-content: center;width:100vw;"><a target="_blank" href="https://www.onlinesbi.com/sbicollect/icollecthome.htm" class="button">
           PAY hall dues
         </a></div>
+        </div>
       </div>
-    </div>
 
     <div id="p4" class="pages">
       <div id="az">
