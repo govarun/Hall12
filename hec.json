@@ -21,15 +21,15 @@
   ],
   "hec":[
     {
-      "name":"Abhishek Singh",
+      "name":"Snehil Saluja",
       "post":"President",
-      "mobo":"7318019917",
-      "mail":"abhisgh@iitk.ac.in",
+      "mobo":"",
+      "mail":"",
       "img":"images/hec/abhishek.jpg",
-      "url":"https://www.facebook.com/abhishek.allenstudent"
+      "url":""
     },
     {
-      "name":"Nilay Tiwari",
+      "name":"Ashish Tiwari",
       "post":"Mess and Canteen Secretary",
       "mobo":"9411844526",
       "mail":"nilayt@iitk.ac.in",
@@ -37,7 +37,7 @@
       "url":"https://www.facebook.com/nilay.tiwari.733"
     },
     {
-      "name":"Adhip Garg",
+      "name":"Umang Chandak",
       "post":"Mess and Canteen Secretary",
       "mobo":"7318018998,9891669888",
       "mail":"adhipg@iitk.ac.in",
@@ -45,7 +45,7 @@
       "url":"https://www.facebook.com/adhip.garg"
     },
     {
-      "name":"Gajendra Meena",
+      "name":"Karanveer Singh",
       "post":"Accounts Secretary",
       "mobo":"7318018981",
       "mail":"gajenkm@iitk.ac.in",
@@ -53,7 +53,7 @@
       "url":"https://www.facebook.com/streakzzz101"
     },
     {
-      "name":"Siddhant Srivastava",
+      "name":"Jatin Khandelwal",
       "post":"Maintainence Secretary",
       "mobo":"7376235795",
       "mail":"ssriva@iitk.ac.in",
@@ -61,7 +61,7 @@
       "url":"https://www.facebook.com/siddhartha.d.srivastava"
     },
     {
-      "name":"Chitral Gupta",
+      "name":"Akash Mishra",
       "post":"Cultural Secretary",
       "mobo":"9413678035",
       "mail":"chitral@iitk.ac.in",
@@ -69,7 +69,7 @@
       "url":"https://www.facebook.com/chitralgupta11"
     },
     {
-      "name":"Suryansh Agarwal",
+      "name":"Shivam Goel",
       "post":"Science and Technology Secretary",
       "mobo":"9718643337",
       "mail":"asurya@iitk.ac.in",
@@ -77,7 +77,7 @@
       "url":"https://www.facebook.com/suryansh.agarwal.90"
     },
     {
-      "name":"Ganesh Sharma",
+      "name":"Deepak Kumar",
       "post":"Sports Secretary",
       "mobo":"",
       "mail":"",
@@ -85,49 +85,41 @@
       "url":"https://www.facebook.com/profile.php?id=100006784009242"
     },
     {
-      "name":"Kalpraj Chaudhari",
-      "post":"Reading Room and Computer Centre Secretary",
+      "name":"Priydarshi Singh",
+      "post":"Web Master",
       "mobo":"7020721619",
       "mail":"kalpraj@iitk.ac.in",
       "img":"images/hec/kalpraj.jpg",
       "url":"https://www.facebook.com/kalpraj.chaudhari"
     },
     {
-      "name":"Akash Kumar Singh",
+      "name":"Varun Goyal",
       "post":"Web Master",
       "mobo":"9169139387",
       "mail":"akashks@iitk.ac.in",
       "img":"images/hec/akash.jpg",
       "url":"http://akashks1998.github.io/homepage"
-    },
-    {
-      "name":"Utkarsh Dongardive",
-      "post":"FMC Secretary",
-      "mobo":"",
-      "mail":"",
-      "img":"images/hec/utkarsh.jpg",
-      "url":"https://www.facebook.com/utkarsh.dongardive.7"
     }
   ],
   "warden":[
     {
-      "name":"Anshu Gaur",
-      "post":"Warden Incharge",
-      "url":"http://home.iitk.ac.in/~agaur/",
-      "mobo":"+91 512 2597600",
-      "mail":"agaur@iitk.ac.in",
-      "img":"images/warden/anshu.jpeg"
-    },
-    {
       "name":"Ark Verma",
-      "post":"Mess Warden",
+      "post":"Warden Incharge",
       "url":"http://iitk.ac.in/new/ark-verma",
       "mobo":"0512-259-6847",
       "mail":"arkverma@iitk.ac.in",
       "img":"images/warden/ark.jpeg"
     },
     {
-      "name":"Shankar Prawesh",
+      "name":"Sagar Chakraborty",
+      "post":"Mess Warden",
+      "url":"http://home.iitk.ac.in/~agaur/",
+      "mobo":"+91 512 2597600",
+      "mail":"agaur@iitk.ac.in",
+      "img":"images/warden/anshu.jpeg"
+    },
+    {
+      "name":"Kaustubh Kulkarni",
       "post":"Maintainence Warden",
       "url":"http://iitk.ac.in/new/shankar-prawesh",
       "mobo":"0512-259-6182",
